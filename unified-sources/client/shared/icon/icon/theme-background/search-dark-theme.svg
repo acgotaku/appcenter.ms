@@ -1,0 +1,11 @@
+var React = require('react');
+
+function SearchDarkTheme (props) {
+    return React.createElement("svg",props,React.createElement("g",{"fillRule":"evenodd"},React.createElement("path",{"d":"M19.45 18.04L31.7 30.3c.4.38.4 1.02 0 1.4-.38.4-1.02.4-1.4 0L18.03 19.46C16.13 21.06 13.68 22 11 22 4.92 22 0 17.08 0 11S4.92 0 11 0s11 4.92 11 11c0 2.68-.96 5.13-2.55 7.04zM11 20c4.97 0 9-4.03 9-9s-4.03-9-9-9-9 4.03-9 9 4.03 9 9 9z"})));
+}
+
+SearchDarkTheme.defaultProps = {"fill":"#fff","fillOpacity":"0.9","width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = SearchDarkTheme;
+
+SearchDarkTheme.default = SearchDarkTheme;

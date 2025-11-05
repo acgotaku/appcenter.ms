@@ -1,0 +1,27 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../node_modules/css-loader/dist/runtime/api.js";
+import ___CSS_LOADER_ICSS_IMPORT_0___ from "-!../../../node_modules/css-loader/dist/cjs.js??ref--6-1!../../../node_modules/postcss-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!../../shared/styles/utils.scss";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+___CSS_LOADER_EXPORT___.i(___CSS_LOADER_ICSS_IMPORT_0___, "", true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".OzhEGGc0x{width:600px;margin-left:-300px;padding:30px}._6hn1e1bIx{margin-top:20px}._6hn1e1bIx>:last-child{margin-left:10px}._1BeYlvblx{font-size:20px;line-height:25px;font-weight:500}._1yglFVSqx{margin-bottom:20px}._1yglFVSqx span{display:table}._3NbabCEEx{animation-name:_5pZE7iFrx;animation-duration:300ms;animation-timing-function:linear;animation-iteration-count:1}@keyframes _5pZE7iFrx{from{opacity:0}to{opacity:1}}.LbLupjIAx{position:absolute;top:15px;right:15px;cursor:pointer}._7BMA1768x{margin-top:30px}._6eoUTyqBx{visibility:hidden}.HhFx2uNGx{display:none}._68vC1sVrx{display:block;position:absolute;top:0;bottom:0;left:0;right:0}._1YoNdM2Ax{display:flex;height:100%;justify-content:center;align-items:center}", "",{"version":3,"sources":["webpack://client/shell/nps-survey/nps-survey.scss"],"names":[],"mappings":"AAGA,WACE,WAHY,CAIZ,kBAAA,CACA,YAAA,CAGF,YACE,eACA,CAEA,wBACE,gBAAA,CAIJ,YACE,cAAA,CACA,gBAAA,CACA,eAAA,CAGF,YAEE,kBAAA,CAEA,iBACE,aAAA,CAIJ,YAEE,yBAAA,CACA,wBApCwB,CAqCxB,gCAAA,CACA,2BAAA,CAGF,sBACE,KACE,SAAA,CAEF,GACE,SAAA,CAAA,CAIJ,WACE,iBAAA,CACA,QAAA,CACA,UAAA,CACA,cAAA,CAGF,YACE,eAAA,CAGF,YACE,iBAAA,CAGF,WACE,YAAA,CAGF,YACE,aAAA,CACA,iBAAA,CACA,KAAA,CACA,QAAA,CACA,MAAA,CACA,OAAA,CAGF,YAEE,YAAA,CACA,WAAA,CACA,sBAAA,CACA,kBAAA","sourcesContent":["$dialog-fade-in-duration: 300ms;\n$dialog-size: 600px;\n\n.large {\n  width: $dialog-size;\n  margin-left: -($dialog-size*0.5);\n  padding: 30px;\n}\n\n.dialog-buttons {\n  margin-top: 20px;\n  composes: flex-end from \"~@css/utils.scss\";\n\n  > :last-child {\n    margin-left: 10px;\n  }\n}\n\n.heading {\n  font-size: 20px;\n  line-height: 25px;\n  font-weight: 500;\n}\n\n.question {\n  composes: heading;\n  margin-bottom: 20px;\n\n  span {\n    display: table;\n  }\n}\n\n.fade-in {\n  composes: large;\n  animation-name: fadeIn;\n  animation-duration: $dialog-fade-in-duration;\n  animation-timing-function: linear;\n  animation-iteration-count: 1;\n}\n\n@keyframes fadeIn {\n  from {\n    opacity: 0;\n  }\n  to {\n    opacity: 1;\n  }\n}\n\n.close {\n  position: absolute;\n  top: 15px;\n  right: 15px;\n  cursor: pointer;\n}\n\n.comments {\n  margin-top: 30px;\n}\n\n.not-visible {\n  visibility: hidden;\n}\n\n.hidden {\n  display: none;\n}\n\n.message-container {\n  display: block;\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n}\n\n.message {\n  composes: heading;\n  display: flex;\n  height: 100%;\n  justify-content: center;\n  align-items: center;\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"large": "OzhEGGc0x",
+	"dialog-buttons": "_6hn1e1bIx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["flex-end"] + "",
+	"dialogButtons": "_6hn1e1bIx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["flex-end"] + "",
+	"heading": "_1BeYlvblx",
+	"question": "_1yglFVSqx _1BeYlvblx",
+	"fade-in": "_3NbabCEEx OzhEGGc0x",
+	"fadeIn": "_3NbabCEEx OzhEGGc0x",
+	"fadeIn": "_5pZE7iFrx",
+	"close": "LbLupjIAx",
+	"comments": "_7BMA1768x",
+	"not-visible": "_6eoUTyqBx",
+	"notVisible": "_6eoUTyqBx",
+	"hidden": "HhFx2uNGx",
+	"message-container": "_68vC1sVrx",
+	"messageContainer": "_68vC1sVrx",
+	"message": "_1YoNdM2Ax _1BeYlvblx"
+};
+export default ___CSS_LOADER_EXPORT___;

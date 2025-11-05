@@ -1,0 +1,36 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "._5nNHJCYIx{box-shadow:0px 1px 2px 0px rgba(0,0,0,.2);border-radius:50%}@media screen and (-ms-high-contrast: active){._5nNHJCYIx{box-shadow:none}}", "",{"version":3,"sources":["webpack://client/shared/organization-icon/organization-icon.scss"],"names":[],"mappings":"AAEA,YACE,yCAAA,CACA,iBAAA,CAEA,8CAJF,YAKI,eAAA,CAAA","sourcesContent":["@import \"../styles/variables.scss\";\n\n.org {\n  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);\n  border-radius: 50%;\n  // Edge: High contrast mode\n  @media screen and (-ms-high-contrast: active) {\n    box-shadow: none;\n  }\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"tabletScreen": "768px",
+	"smallScreen": "1100px",
+	"mediumScreen": "1300px",
+	"largeScreen": "1500px",
+	"azure": "#006fc8",
+	"cyan": "#1faece",
+	"primaryText": "var(--primary-text)",
+	"secondaryText": "var(--secondary-text)",
+	"chartGridColor": "var(--ui-divider)",
+	"gray10": "#dedede",
+	"msDarkBlue": "#002050",
+	"amberLight2": "#f7e28b",
+	"violetLight2": "#cec0ec",
+	"tealLight3": "#cfece8",
+	"bannerBlue": "var(--banner-blue)",
+	"spaceXXS": "4px",
+	"spaceXS": "8px",
+	"spaceS": "16px",
+	"spaceM": "20px",
+	"spaceXM": "24px",
+	"spaceL": "32px",
+	"spaceXL": "40px",
+	"spaceXXL": "60px",
+	"panelSlideDuration": "200ms",
+	"panelFadeDuration": "100ms",
+	"ccBannerHeight": "46px",
+	"org": "_5nNHJCYIx"
+};
+export default ___CSS_LOADER_EXPORT___;

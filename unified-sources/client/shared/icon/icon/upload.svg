@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Upload (props) {
+    return React.createElement("svg",props,React.createElement("g",{"fillRule":"evenodd"},React.createElement("path",{"d":"M24 0v2H6V0h18zm.7 15.3l-1.4 1.4L16 9.4V32h-2V9.4l-7.3 7.3-1.4-1.4L15 5.5l9.7 9.8z"})));
+}
+
+Upload.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = Upload;
+
+Upload.default = Upload;

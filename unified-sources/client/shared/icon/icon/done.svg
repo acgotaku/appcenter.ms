@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Done (props) {
+    return React.createElement("svg",props,[React.createElement("title",{"key":0},"Artboard"),React.createElement("desc",{"key":1},"Created with Sketch."),React.createElement("defs",{"key":2}),React.createElement("g",{"id":"Page-1","stroke":"none","strokeWidth":"1","fill":"none","fillRule":"evenodd","key":3},React.createElement("g",{"id":"Artboard","strokeWidth":"2","stroke":"#979797"},React.createElement("g",{"id":"check","transform":"translate(5.000000, 7.000000)"},React.createElement("g",{"id":"Crashes"},React.createElement("g",{"id":"Crashes.Crashes-(with-filter)"},React.createElement("g",{"id":"top-bar/filter-labels-dropdown"},React.createElement("g",{"id":"dropdown"},React.createElement("g",{"id":"row"},React.createElement("g",{"id":"check"},React.createElement("polyline",{"id":"Path-128","points":"0 2.52086749 3.98913274 6.5100002 10.499133 0"}))))))))))]);
+}
+
+Done.defaultProps = {"width":"20px","height":"20px","viewBox":"0 0 20 20","version":"1.1"};
+
+module.exports = Done;
+
+Done.default = Done;

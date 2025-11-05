@@ -1,0 +1,39 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "._3Gx598E3x{display:inline-block}._13AIP2y7x{display:inline-block;-webkit-user-select:auto;-moz-user-select:auto;user-select:auto}._4FDOYuIEx{display:block;left:-99999px;opacity:0;position:absolute;pointer-events:none;z-index:-999}", "",{"version":3,"sources":["webpack://client/shared/select/select.scss"],"names":[],"mappings":"AAEA,YACE,oBAAA,CAGF,YAEE,oBAAA,CACA,wBAAA,CAAA,qBAAA,CAAA,gBAAA,CAGF,YACE,aAAA,CACA,aAAA,CACA,SAAA,CACA,iBAAA,CACA,mBAAA,CACA,YAAA","sourcesContent":["@import \"../styles/variables.scss\";\n\n.select {\n  display: inline-block;\n}\n\n.trigger {\n  // VoiceOver does not announce selected combobox item without these rules\n  display: inline-block;\n  user-select: auto;\n}\n\n.html-select {\n  display: block;\n  left: -99999px;\n  opacity: 0;\n  position: absolute;\n  pointer-events: none;\n  z-index: -999;\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"tabletScreen": "768px",
+	"smallScreen": "1100px",
+	"mediumScreen": "1300px",
+	"largeScreen": "1500px",
+	"azure": "#006fc8",
+	"cyan": "#1faece",
+	"primaryText": "var(--primary-text)",
+	"secondaryText": "var(--secondary-text)",
+	"chartGridColor": "var(--ui-divider)",
+	"gray10": "#dedede",
+	"msDarkBlue": "#002050",
+	"amberLight2": "#f7e28b",
+	"violetLight2": "#cec0ec",
+	"tealLight3": "#cfece8",
+	"bannerBlue": "var(--banner-blue)",
+	"spaceXXS": "4px",
+	"spaceXS": "8px",
+	"spaceS": "16px",
+	"spaceM": "20px",
+	"spaceXM": "24px",
+	"spaceL": "32px",
+	"spaceXL": "40px",
+	"spaceXXL": "60px",
+	"panelSlideDuration": "200ms",
+	"panelFadeDuration": "100ms",
+	"ccBannerHeight": "46px",
+	"select": "_3Gx598E3x",
+	"trigger": "_13AIP2y7x",
+	"html-select": "_4FDOYuIEx",
+	"htmlSelect": "_4FDOYuIEx"
+};
+export default ___CSS_LOADER_EXPORT___;

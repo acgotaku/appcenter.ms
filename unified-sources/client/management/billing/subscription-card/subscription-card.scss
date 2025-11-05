@@ -1,0 +1,46 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../../node_modules/css-loader/dist/runtime/api.js";
+import ___CSS_LOADER_ICSS_IMPORT_0___ from "-!../../../../node_modules/css-loader/dist/cjs.js??ref--6-1!../../../../node_modules/postcss-loader/dist/cjs.js!../../../../node_modules/sass-loader/dist/cjs.js!../../../shared/styles/utils.scss";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+___CSS_LOADER_EXPORT___.i(___CSS_LOADER_ICSS_IMPORT_0___, "", true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".Dh9uQzTyx{}._2BhWM2gMx{display:flex}._3JGweoFOx{}._28pd9ht2x{align-items:flex-end}._57kIgylnx{flex-direction:column}._5sW1hinZx{}", "",{"version":3,"sources":["webpack://client/management/billing/subscription-card/subscription-card.scss"],"names":[],"mappings":"AAEA,WACE,CAGF,YACE,YAAA,CAGF,YACE,CAGF,YAEE,oBAAA,CAGF,YAGE,qBAAA,CAGF,YACE","sourcesContent":["@import \"~@css/vars.scss\";\n\n.stretch {\n  composes: stretch from \"~@css/utils.scss\";\n}\n\n.flex {\n  display: flex;\n}\n\n.error-header {\n  composes: vertically-center from \"~@css/utils.scss\";\n}\n\n.subscription-info {\n  composes: stretch;\n  align-items: flex-end;\n}\n\n.subscription-name {\n  composes: space-xs-left from \"~@css/utils.scss\";\n  composes: flex;\n  flex-direction: column;\n}\n\n.icon {\n  composes: padding-xxs from \"~@css/utils.scss\";\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"tabletScreen": "768px",
+	"smallScreen": "1100px",
+	"mediumScreen": "1300px",
+	"largeScreen": "1500px",
+	"azure": "#006fc8",
+	"cyan": "#1faece",
+	"primaryText": "var(--primary-text)",
+	"secondaryText": "var(--secondary-text)",
+	"chartGridColor": "var(--ui-divider)",
+	"gray10": "#dedede",
+	"msDarkBlue": "#002050",
+	"amberLight2": "#f7e28b",
+	"violetLight2": "#cec0ec",
+	"tealLight3": "#cfece8",
+	"bannerBlue": "var(--banner-blue)",
+	"spaceXXS": "4px",
+	"spaceXS": "8px",
+	"spaceS": "16px",
+	"spaceM": "20px",
+	"spaceXM": "24px",
+	"spaceL": "32px",
+	"spaceXL": "40px",
+	"spaceXXL": "60px",
+	"panelSlideDuration": "200ms",
+	"panelFadeDuration": "100ms",
+	"ccBannerHeight": "46px",
+	"stretch": "Dh9uQzTyx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["stretch"] + "",
+	"flex": "_2BhWM2gMx",
+	"error-header": "_3JGweoFOx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["vertically-center"] + "",
+	"errorHeader": "_3JGweoFOx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["vertically-center"] + "",
+	"subscription-info": "_28pd9ht2x Dh9uQzTyx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["stretch"] + "",
+	"subscriptionInfo": "_28pd9ht2x Dh9uQzTyx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["stretch"] + "",
+	"subscription-name": "_57kIgylnx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["space-xs-left"] + " _2BhWM2gMx",
+	"subscriptionName": "_57kIgylnx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["space-xs-left"] + " _2BhWM2gMx",
+	"icon": "_5sW1hinZx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["padding-xxs"] + ""
+};
+export default ___CSS_LOADER_EXPORT___;

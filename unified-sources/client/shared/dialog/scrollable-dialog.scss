@@ -1,0 +1,19 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "._4N2AFChQx{overflow:hidden}._1RbGnWeRx{overflow:auto;max-height:calc(100vh - 85px - 120px)}.v4QFIzPMx ._1RbGnWeRx{max-height:calc(100vh - 85px - 80px - 120px)}._2XGPXNDDx ._1RbGnWeRx{height:calc(100vh - 85px - 120px)}._2XGPXNDDx.v4QFIzPMx ._1RbGnWeRx{height:calc(100vh - 85px - 80px - 120px)}", "",{"version":3,"sources":["webpack://client/shared/dialog/scrollable-dialog.scss"],"names":[],"mappings":"AAkBA,YACE,eAAA,CAGF,YACE,aAAA,CACA,qCATc,CAYhB,uBACE,4CAZ8B,CAehC,wBACE,iCAjBc,CAoBhB,kCACE,wCApB8B","sourcesContent":["// According to spec, the whole Dialog should be the full\n// screen height with 60px margin top and bottom,\n// so it would be better to put that on .scrollable-dialog.\n// But for that to work with this scroll container,\n// .scrollable-dialog would need to be `display: flex`\n// and `flex-direction: column`. Unfortunately, stupid\n// Overlay does `display: block !important` in order to\n// control the visibility of the overlay, so that’s a\n// non-starter. So, we set a calculated height for the\n// scroll container as 100vh minus the approximate height of the\n// bottom bar (if it exists) minus the approximate height of the\n// header area to get the approximate total for the whole Dialog.\n$screen-margin: 60px;\n$top-bar-height: 85px;\n$bottom-bar-height: 80px;\n$dialog-height: calc(100vh - #{$top-bar-height} - #{2 * $screen-margin});\n$dialog-height-with-bottom-bar: calc(100vh - #{$top-bar-height} - #{$bottom-bar-height} - #{2 * $screen-margin});\n\n.scrollable-dialog {\n  overflow: hidden;\n}\n\n.scroll-container {\n  overflow: auto;\n  max-height: $dialog-height;\n}\n\n.with-bottom-bar .scroll-container {\n  max-height: $dialog-height-with-bottom-bar;\n}\n\n.full-height .scroll-container {\n  height: $dialog-height;\n}\n\n.full-height.with-bottom-bar .scroll-container {\n  height: $dialog-height-with-bottom-bar;\n}\n\n:export {\n  topBarHeight: $top-bar-height;\n  bottomBarHeight: $bottom-bar-height;\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"topBarHeight": "85px",
+	"bottomBarHeight": "80px",
+	"scrollable-dialog": "_4N2AFChQx",
+	"scrollableDialog": "_4N2AFChQx",
+	"scroll-container": "_1RbGnWeRx",
+	"scrollContainer": "_1RbGnWeRx",
+	"with-bottom-bar": "v4QFIzPMx",
+	"withBottomBar": "v4QFIzPMx",
+	"full-height": "_2XGPXNDDx",
+	"fullHeight": "_2XGPXNDDx"
+};
+export default ___CSS_LOADER_EXPORT___;

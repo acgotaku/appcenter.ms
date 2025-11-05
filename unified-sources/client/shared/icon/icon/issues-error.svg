@@ -1,0 +1,11 @@
+var React = require('react');
+
+function IssuesError (props) {
+    return React.createElement("svg",props,React.createElement("g",{"fill":"none","fillRule":"evenodd"},[React.createElement("path",{"fill":"#BD8A00","d":"M6.9.48L12 10.55a1 1 0 0 1-.9 1.45H.9a1 1 0 0 1-.9-1.45L5.1.48a1 1 0 0 1 1.8 0z","style":{"fill":"#BD8A00"},"key":0}),React.createElement("path",{"fill":"#FFF","d":"M5 3h2v4H5z","style":{"fill":"#FFF"},"key":1}),React.createElement("circle",{"cx":"6","cy":"9","r":"1","fill":"#FFF","key":2})]));
+}
+
+IssuesError.defaultProps = {"width":"12","height":"12","viewBox":"0 0 12 12"};
+
+module.exports = IssuesError;
+
+IssuesError.default = IssuesError;

@@ -1,0 +1,45 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../../node_modules/css-loader/dist/runtime/api.js";
+import ___CSS_LOADER_ICSS_IMPORT_0___ from "-!../../../../node_modules/css-loader/dist/cjs.js??ref--6-1!../../../../node_modules/postcss-loader/dist/cjs.js!../../../../node_modules/sass-loader/dist/cjs.js!../../../shared/styles/utils.scss";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+___CSS_LOADER_EXPORT___.i(___CSS_LOADER_ICSS_IMPORT_0___, "", true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "@supports not (display: grid){._319y9J1vx{display:inline-block;margin:10px 10px 0 0;width:200px}}@supports(display: grid){._1WytX1VBx{margin-top:10px;display:grid;grid-template-columns:repeat(auto-fill, minmax(200px, 1fr));grid-gap:10px}}@supports not (display: grid){._1WytX1VBx{margin:-10px -10px 0 0}}._4fm8JdTNx{display:flex;align-items:center;justify-content:flex-end;padding:0 20px}._3EQm1clux{margin-bottom:-1px}._3EQm1clux:hover:first-child{border-top-left-radius:2px;border-top-right-radius:2px}._3EQm1clux:hover:last-child{border-bottom-left-radius:2px;border-bottom-right-radius:2px}._5gEmRDMHx{}", "",{"version":3,"sources":["webpack://client/management/apps/app-list/app-list.scss"],"names":[],"mappings":"AAUE,8BALF,YAMI,oBAAA,CACA,oBAAA,CACA,WAVS,CAAA,CAgBX,yBAFF,YAGI,eAlBK,CAmBL,YAAA,CACA,2DAAA,CACA,aAAA,CAAA,CAGF,8BATF,YAUI,sBAAA,CAAA,CAIJ,YACE,YAAA,CACA,kBAAA,CACA,wBAAA,CACA,cAAA,CAGF,YACE,kBAAA,CAEE,8BACE,0BAAA,CACA,2BAAA,CAGF,6BACE,6BAAA,CACA,8BAAA,CAKN,YACE","sourcesContent":["@import \"~@css/vars.scss\";\n\n$gutter: 10px;\n$card-width: 200px;\n\n.card {\n  // Force Edge to use the fallback method (https://docs.microsoft.com/en-us/microsoft-edge/dev-guide/css/grid-layout)\n  // Edge 15 will support grid property with the vendor prefix. But it lacks auto element placement support (which is a big con).\n  // Hence, use the fallback.\n  // Note that Edge 16 will support Grid without the vendor prefix which makes these conditions applicable only for Edge <= 15.\n  @supports (not (display: grid)) {\n    display: inline-block;\n    margin: $gutter $gutter 0 0;\n    width: $card-width;\n  }\n}\n\n.card-grid {\n  // Only use Grids when browser supports the property.\n  @supports (display: grid) {\n    margin-top: $gutter;\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax($card-width, 1fr));\n    grid-gap: 10px;\n  }\n\n  @supports (not (display: grid)) {\n    margin: (-$gutter) (-$gutter) 0 0;\n  }\n}\n\n.card-legends {\n  display: flex;\n  align-items: center;\n  justify-content: flex-end;\n  padding: 0 $space-m;\n}\n\n.row {\n  margin-bottom: -1px; // For Edge so that it shows the focus outline which was cut off by the bottom border.\n  &:hover {\n    &:first-child {\n      border-top-left-radius: 2px;\n      border-top-right-radius: 2px;\n    }\n\n    &:last-child {\n      border-bottom-left-radius: 2px;\n      border-bottom-right-radius: 2px;\n    }\n  }\n}\n\n.list-header {\n  composes: bottom-divider-inset from '~@css/utils.scss';\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"tabletScreen": "768px",
+	"smallScreen": "1100px",
+	"mediumScreen": "1300px",
+	"largeScreen": "1500px",
+	"azure": "#006fc8",
+	"cyan": "#1faece",
+	"primaryText": "var(--primary-text)",
+	"secondaryText": "var(--secondary-text)",
+	"chartGridColor": "var(--ui-divider)",
+	"gray10": "#dedede",
+	"msDarkBlue": "#002050",
+	"amberLight2": "#f7e28b",
+	"violetLight2": "#cec0ec",
+	"tealLight3": "#cfece8",
+	"bannerBlue": "var(--banner-blue)",
+	"spaceXXS": "4px",
+	"spaceXS": "8px",
+	"spaceS": "16px",
+	"spaceM": "20px",
+	"spaceXM": "24px",
+	"spaceL": "32px",
+	"spaceXL": "40px",
+	"spaceXXL": "60px",
+	"panelSlideDuration": "200ms",
+	"panelFadeDuration": "100ms",
+	"ccBannerHeight": "46px",
+	"card": "_319y9J1vx",
+	"card-grid": "_1WytX1VBx",
+	"cardGrid": "_1WytX1VBx",
+	"card-legends": "_4fm8JdTNx",
+	"cardLegends": "_4fm8JdTNx",
+	"row": "_3EQm1clux",
+	"list-header": "_5gEmRDMHx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["bottom-divider-inset"] + "",
+	"listHeader": "_5gEmRDMHx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["bottom-divider-inset"] + ""
+};
+export default ___CSS_LOADER_EXPORT___;

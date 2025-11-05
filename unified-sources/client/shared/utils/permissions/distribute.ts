@@ -1,0 +1,31 @@
+export enum Permission {
+  AddRelease,
+  RedistributeRelease,
+  DeleteRelease,
+  AddTester,
+  DeleteTester,
+  ExportDevice,
+  AddDistributionGroup,
+  DeleteDistributionGroup,
+  AddDistributionStore,
+  DeleteDistributionStore,
+  ManageApp,
+  RegisterDevices,
+  DistributionStoreSettings,
+}
+
+export const Permissions = {
+  [Permission.AddRelease]: ["developer", "manager"],
+  [Permission.RedistributeRelease]: ["developer", "manager"],
+  [Permission.DeleteRelease]: ["developer", "manager"],
+  [Permission.AddTester]: ["developer", "manager"],
+  [Permission.DeleteTester]: ["developer", "manager"],
+  [Permission.ExportDevice]: ["developer", "manager"],
+  [Permission.AddDistributionGroup]: ["developer", "manager"],
+  [Permission.DeleteDistributionGroup]: ["developer", "manager"],
+  [Permission.AddDistributionStore]: ["developer", "manager"],
+  [Permission.DeleteDistributionStore]: ["developer", "manager"],
+  [Permission.ManageApp]: ["manager"],
+  [Permission.RegisterDevices]: ["developer", "manager"],
+  [Permission.DistributionStoreSettings]: ["developer", "manager"],
+};

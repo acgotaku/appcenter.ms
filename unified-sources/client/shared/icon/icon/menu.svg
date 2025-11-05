@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Menu (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M32 10H0V8h32v2zm0 16H0v-2h32v2zm0-8H0v-2h32v2z","fillRule":"evenodd"}));
+}
+
+Menu.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = Menu;
+
+Menu.default = Menu;

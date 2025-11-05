@@ -1,0 +1,13 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../../../../node_modules/css-loader/dist/runtime/api.js";
+import ___CSS_LOADER_ICSS_IMPORT_0___ from "-!../../../../../../node_modules/css-loader/dist/cjs.js??ref--6-1!../../../../../../node_modules/postcss-loader/dist/cjs.js!../../../../../../node_modules/sass-loader/dist/cjs.js!../../../../../shared/styles/utils.scss";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+___CSS_LOADER_EXPORT___.i(___CSS_LOADER_ICSS_IMPORT_0___, "", true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "._4wOHAMw3x{}._2lozLsrMx{}", "",{"version":3,"sources":["webpack://client/management/orgs/people/team-details/team-settings/team-settings.scss"],"names":[],"mappings":"AAAA,YACE,CAGF,YACE","sourcesContent":[".hidden {\n  composes: off-screen from \"~@css/utils.scss\";\n}\n\n.buttons {\n  composes: stretch from \"~@css/utils.scss\";\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"hidden": "_4wOHAMw3x " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["off-screen"] + "",
+	"buttons": "_2lozLsrMx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["stretch"] + ""
+};
+export default ___CSS_LOADER_EXPORT___;

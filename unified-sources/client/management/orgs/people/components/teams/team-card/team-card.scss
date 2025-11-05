@@ -1,0 +1,44 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../node_modules/css-loader/dist/runtime/api.js";
+import ___CSS_LOADER_ICSS_IMPORT_0___ from "-!../../../../../../../node_modules/css-loader/dist/cjs.js??ref--6-1!../../../../../../../node_modules/postcss-loader/dist/cjs.js!../../../../../../../node_modules/sass-loader/dist/cjs.js!../../../../../../shared/styles/utils.scss";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+___CSS_LOADER_EXPORT___.i(___CSS_LOADER_ICSS_IMPORT_0___, "", true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "._6MwwTiCSx{padding:40px}._6MwwTiCSx:hover{background-color:var(--ui-subtle-hover)}._6MwwTiCSx._5YhiFxEgx{padding:15px 20px;box-shadow:none;background:rgba(0,0,0,0)}._62OC5oIWx{}._3UDWWHRfx{max-width:90%;overflow:hidden}._2QFpANpAx{}._7838pMDjx{opacity:0}._6MwwTiCSx:hover ._7838pMDjx,._6MwwTiCSx:focus ._7838pMDjx,._7838pMDjx:focus{opacity:1}", "",{"version":3,"sources":["webpack://client/management/orgs/people/components/teams/team-card/team-card.scss","webpack://client/shared/styles/mixins.scss"],"names":[],"mappings":"AAGA,YACE,YAAA,CAEA,kBACE,uCAAA,CAGF,uBACE,iBAAA,CACA,eAAA,CACA,wBAAA,CAIJ,YACE,CAGF,YACE,aAAA,CACA,eAAA,CAGF,YACE,CAGF,YC6BE,SAAA,CACA,8EACE,SAAA","sourcesContent":["@import \"~@css/vars.scss\";\n@import \"~@css/mixins\";\n\n.wrapper {\n  padding: 40px;\n\n  &:hover {\n    background-color: var(--ui-subtle-hover);\n  }\n\n  &.condensed {\n    padding: 15px 20px;\n    box-shadow: none;\n    background: transparent;\n  }\n}\n\n.container {\n  composes: stretch from \"~@css/utils.scss\";\n}\n\n.avatar-list {\n  max-width: 90%;\n  overflow: hidden;\n}\n\n.hidden {\n  composes: off-screen from \"~@css/utils.scss\";\n}\n\n.menu {\n  @include show-icon-on-hover(wrapper)\n}\n","@import \"./variables.scss\";\n$retina: \"only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx)\";\n\n@mixin retina-background-image($file, $type, $width, $height) {\n  background-image: url($file + '.' + $type);\n  @media #{$retina} {\n    background-image: url($file + '@2x.' + $type);\n    background-size: $width $height;\n  }\n}\n\n@mixin entry {\n  margin: 0; // Safari adds margin to inputs\n  background-color: var(--text-field);\n  border-radius: 2px;\n  border: 1px solid var(--text-field-outline);\n  font-family: $font-stack-primary;\n  font-size: $input-font-size-md;\n  line-height: 20px;\n  outline: none;\n  padding: ($space-squish-m-v - 1px) ($space-squish-m-h - 1px);\n  -webkit-appearance: none; // Mobile Safari adds inner shadow\n\n  @include shadow-focus($safeline: 'no', $ignore-outliner: 'yes');\n  &:focus {\n    border-color: $azure-light1;\n  }\n\n  &[disabled],\n  &[readonly] {\n    background-color: var(--text-field-disabled);\n    color: $secondary-text;\n  }\n}\n\n@mixin mask-both {\n  mask-size: calc(#{$space-l} + 1px), calc(100% - 2 * #{$space-l}), calc(#{$space-l} + 1px);\n  mask-position: left, center, right;\n  mask-repeat: repeat-y, repeat-y;\n  mask-image: linear-gradient(to right, transparent, black), linear-gradient(black, black), linear-gradient(to right, black, transparent);\n}\n\n@mixin mask-right {\n  mask-size: calc(100% - #{$space-l}), calc(#{$space-l} + 1px);\n  mask-position: left, right;\n  mask-repeat: repeat-y, repeat-y;\n  mask-image: linear-gradient(black, black), linear-gradient(to right, black, transparent);\n}\n\n@mixin entry-focus {\n  border: 1px solid fade-out($blue, 0.2);\n  box-shadow: 0 0 4px fade-out($blue-dark2, 0.6);\n  // Edge: High contrast mode\n  @media screen and (-ms-high-contrast: active) {\n    border: 1px solid highlight;\n  }\n}\n\n@mixin show-icon-on-hover($parentClass) {\n  opacity: 0;\n  .#{$parentClass}:hover &, .#{$parentClass}:focus &, &:focus {\n    opacity: 1;\n  }\n}\n\n@mixin shadow-focus-base($safeline, $outline, $customColor: $focus-color) {\n  @media screen and (-ms-high-contrast: active) {\n    outline: 3px solid highlight;\n  }\n  @if $outline == 'yes' {\n    outline: 3px solid $customColor;\n    outline-offset: -3px;\n    box-shadow: none;\n  } @else if $safeline == 'yes' {\n    outline: none;\n    box-shadow: 0 0 0 2px $gray-light3, 0 0 0 ($focus-spread + 2px) $customColor;\n  } @else {\n    outline: none;\n    box-shadow: 0 0 0 $focus-spread $customColor;\n  }\n}\n\n@mixin shadow-focus($safeline: 'yes', $ignore-outliner: 'no', $include-pseudoclass: 'yes', $outline: 'no', $customColor: $focus-color) {\n  @if $ignore-outliner == 'no' {\n    @if $include-pseudoclass == 'yes' {\n      body[data-outline] &:focus { @include shadow-focus-base($safeline, $outline, $customColor); }\n    } @else {\n      body[data-outline] & { @include shadow-focus-base($safeline, $outline, $customColor); }\n    }\n  } @else {\n    @if $include-pseudoclass == 'yes' {\n      &:focus { @include shadow-focus-base($safeline, $outline, $customColor); }\n    } @else {\n      @include shadow-focus-base($safeline, $outline, $customColor);\n    }\n  }\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"tabletScreen": "768px",
+	"smallScreen": "1100px",
+	"mediumScreen": "1300px",
+	"largeScreen": "1500px",
+	"azure": "#006fc8",
+	"cyan": "#1faece",
+	"primaryText": "var(--primary-text)",
+	"secondaryText": "var(--secondary-text)",
+	"chartGridColor": "var(--ui-divider)",
+	"gray10": "#dedede",
+	"msDarkBlue": "#002050",
+	"amberLight2": "#f7e28b",
+	"violetLight2": "#cec0ec",
+	"tealLight3": "#cfece8",
+	"bannerBlue": "var(--banner-blue)",
+	"spaceXXS": "4px",
+	"spaceXS": "8px",
+	"spaceS": "16px",
+	"spaceM": "20px",
+	"spaceXM": "24px",
+	"spaceL": "32px",
+	"spaceXL": "40px",
+	"spaceXXL": "60px",
+	"panelSlideDuration": "200ms",
+	"panelFadeDuration": "100ms",
+	"ccBannerHeight": "46px",
+	"wrapper": "_6MwwTiCSx",
+	"condensed": "_5YhiFxEgx",
+	"container": "_62OC5oIWx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["stretch"] + "",
+	"avatar-list": "_3UDWWHRfx",
+	"avatarList": "_3UDWWHRfx",
+	"hidden": "_2QFpANpAx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["off-screen"] + "",
+	"menu": "_7838pMDjx"
+};
+export default ___CSS_LOADER_EXPORT___;

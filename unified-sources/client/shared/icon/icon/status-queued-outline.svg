@@ -1,0 +1,11 @@
+var React = require('react');
+
+function StatusQueuedOutline (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M16 30c7.73 0 14-6.27 14-14S23.73 2 16 2 2 8.27 2 16s6.27 14 14 14zm0 2C7.16 32 0 24.84 0 16S7.16 0 16 0s16 7.16 16 16-7.16 16-16 16zm6-16h-6V6h-2v12h8v-2z","fillRule":"evenodd"}));
+}
+
+StatusQueuedOutline.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = StatusQueuedOutline;
+
+StatusQueuedOutline.default = StatusQueuedOutline;

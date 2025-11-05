@@ -1,0 +1,12 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../node_modules/css-loader/dist/runtime/api.js";
+import ___CSS_LOADER_ICSS_IMPORT_0___ from "-!../../../node_modules/css-loader/dist/cjs.js??ref--6-1!../../../node_modules/postcss-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!../styles/utils.scss";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+___CSS_LOADER_EXPORT___.i(___CSS_LOADER_ICSS_IMPORT_0___, "", true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".Z3I8HdFXx{display:flex;overflow:hidden;padding:2px 0}.Z3I8HdFXx>*{margin:0 8px}", "",{"version":3,"sources":["webpack://client/shared/identicon-list/identicon-list.scss"],"names":[],"mappings":"AAAA,WAEE,YAAA,CACA,eAAA,CACA,aAAA,CAEA,aACE,YAAA","sourcesContent":[".container {\n  composes: mask-right from '~@css/utils.scss';\n  display: flex;\n  overflow: hidden;\n  padding: 2px 0;\n\n  > * {\n    margin: 0 8px;\n  }\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"container": "Z3I8HdFXx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["mask-right"] + ""
+};
+export default ___CSS_LOADER_EXPORT___;

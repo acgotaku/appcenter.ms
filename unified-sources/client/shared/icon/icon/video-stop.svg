@@ -1,0 +1,11 @@
+var React = require('react');
+
+function VideoStop (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M6 26h20V6H6v20zM4 4h24v24H4V4z"}));
+}
+
+VideoStop.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = VideoStop;
+
+VideoStop.default = VideoStop;

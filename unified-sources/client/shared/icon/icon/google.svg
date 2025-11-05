@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Google (props) {
+    return React.createElement("svg",props,[React.createElement("defs",{"key":0},React.createElement("path",{"style":{"fill":"#FFF"},"d":"M19.32 8.18H10v3.87h5.36c-.5 2.45-2.6 3.86-5.36 3.86-3.27 0-5.9-2.62-5.9-5.9 0-3.26 2.63-5.9 5.9-5.9 1.4 0 2.68.5 3.68 1.3l2.9-2.9C14.83.96 12.56 0 10 0 4.45 0 0 4.45 0 10s4.45 10 10 10c5 0 9.55-3.64 9.55-10 0-.6-.1-1.23-.23-1.82z","id":"a"})),React.createElement("g",{"fill":"none","fillRule":"evenodd","key":1},[React.createElement("mask",{"id":"b","fill":"#fff","key":0},React.createElement("use",{"xlinkHref":"#a"})),React.createElement("path",{"style":{"fill":"#FBBC05"},"fill":"#FBBC05","fillRule":"nonzero","mask":"url(#b)","d":"M-.9 15.9V4.1L6.8 10","key":1}),React.createElement("path",{"style":{"fill":"#EA4335"},"fill":"#EA4335","fillRule":"nonzero","mask":"url(#b)","d":"M-.9 4.1L6.8 10 10 7.23l10.9-1.78V-.9H-.9","key":2}),React.createElement("path",{"style":{"fill":"#34A853"},"fill":"#34A853","fillRule":"nonzero","mask":"url(#b)","d":"M-.9 15.9L12.72 5.46l3.6.46L20.9-.9v21.8H-.9","key":3}),React.createElement("path",{"style":{"fill":"#4285F4"},"fill":"#4285F4","fillRule":"nonzero","mask":"url(#b)","d":"M20.9 20.9L6.83 10 5 8.64 20.9 4.1","key":4})])]);
+}
+
+Google.defaultProps = {"width":"20","height":"20","viewBox":"0 0 20 20"};
+
+module.exports = Google;
+
+Google.default = Google;

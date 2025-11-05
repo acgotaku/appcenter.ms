@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Auth0 (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M22.7262 25.8875L19.5137 16L27.9236 9.88942H17.5289L14.3163 0.00190553V0H24.7129L27.9274 9.88942L27.9293 9.88751C29.7939 15.6244 27.8702 22.1506 22.7262 25.8875ZM5.9026 25.8875L5.90069 25.8894L14.3125 32L22.7262 25.8875L14.3144 19.7769L5.9026 25.8875ZM0.703355 9.88751C-1.26042 15.9352 1.01985 22.3432 5.90069 25.8894V25.8856L9.11327 15.9981L0.705263 9.88942H11.098L14.3125 0.00190553V0H3.91594L0.703355 9.88751Z","fill":"#EB5424","style":{"fill":"#EB5424"}}));
+}
+
+Auth0.defaultProps = {"width":"29","height":"32","viewBox":"0 0 29 32","fill":"none"};
+
+module.exports = Auth0;
+
+Auth0.default = Auth0;

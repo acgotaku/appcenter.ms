@@ -1,0 +1,11 @@
+var React = require('react');
+
+function ReleaseEnableDetails (props) {
+    return React.createElement("svg",props,[React.createElement("defs",{"key":0},React.createElement("filter",{"x":"-0.2%","y":"-0.1%","width":"100.3%","height":"100.1%","filterUnits":"objectBoundingBox","id":"filter-2"},[React.createElement("feOffset",{"dx":"-0.85","dy":"0","in":"SourceAlpha","result":"shadowOffsetOuter1","key":0}),React.createElement("feColorMatrix",{"values":"0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0","type":"matrix","in":"shadowOffsetOuter1","result":"shadowMatrixOuter1","key":1}),React.createElement("feMerge",{"key":2},[React.createElement("feMergeNode",{"in":"shadowMatrixOuter1","key":0}),React.createElement("feMergeNode",{"in":"SourceGraphic","key":1})])])),React.createElement("g",{"fill":"none","fillRule":"evenodd","key":1},React.createElement("g",{"filter":"url(#filter-2)"},[React.createElement("path",{"fill":"#AE875C","d":"M24 16l-3-3h5.4l3 3","style":{"fill":"#AE875C"},"key":0}),React.createElement("path",{"fill":"#88653E","d":"M37.2 16.07l3-3.05h-7.8l-3 3","style":{"fill":"#88653E"},"key":1}),React.createElement("path",{"fill":"#AE875C","d":"M24 15.95h13.19v10.9H24","style":{"fill":"#AE875C"},"key":2}),React.createElement("path",{"fill":"#C09D75","d":"M24 15.95h5.4v10.9h-5.4","style":{"fill":"#C09D75"},"key":3})]))]);
+}
+
+ReleaseEnableDetails.defaultProps = {"width":"20","height":"20","viewBox":"20.2 10.8 20 20"};
+
+module.exports = ReleaseEnableDetails;
+
+ReleaseEnableDetails.default = ReleaseEnableDetails;

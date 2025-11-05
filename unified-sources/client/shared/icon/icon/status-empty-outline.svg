@@ -1,0 +1,11 @@
+var React = require('react');
+
+function StatusEmptyOutline (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M16 32C7.16 32 0 24.84 0 16S7.16 0 16 0s16 7.16 16 16-7.16 16-16 16zm0-2c7.73 0 14-6.27 14-14S23.73 2 16 2 2 8.27 2 16s6.27 14 14 14z","fillRule":"evenodd"}));
+}
+
+StatusEmptyOutline.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = StatusEmptyOutline;
+
+StatusEmptyOutline.default = StatusEmptyOutline;

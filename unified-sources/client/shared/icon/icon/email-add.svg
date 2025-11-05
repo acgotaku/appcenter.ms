@@ -1,0 +1,11 @@
+var React = require('react');
+
+function EmailAdd (props) {
+    return React.createElement("svg",props,React.createElement("path",{"fillRule":"evenodd","d":"M18 8v12H0V8h18zM2 10v8h14v-8H2zm0 0v1.6l7 3.5 7-3.5V10l-7 3.4L2 10zm19-5V2h-2v3h-3v2h3v3h2V7h3V5h-3z"}));
+}
+
+EmailAdd.defaultProps = {"width":"24","height":"24","viewBox":"0 0 24 24"};
+
+module.exports = EmailAdd;
+
+EmailAdd.default = EmailAdd;

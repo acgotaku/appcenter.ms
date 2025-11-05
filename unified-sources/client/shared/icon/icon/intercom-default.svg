@@ -1,0 +1,11 @@
+var React = require('react');
+
+function IntercomDefault (props) {
+    return React.createElement("svg",props,React.createElement("g",{"fill":"none","fillRule":"evenodd"},[React.createElement("path",{"fill":"#000","d":"M24 44c11 0 20-9 20-20S35 4 24 4 4 13 4 24s9 20 20 20z","key":0}),React.createElement("path",{"style":{"fill":"#FFF"},"fill":"#FFF","d":"M23.2 31H15c-.6 0-1-.5-1-1V17c0-.6.4-1 1-1h18c.6 0 1 .5 1 1v13c0 .6-.4 1-1 1h-5v4l-4.8-4z","key":1})]));
+}
+
+IntercomDefault.defaultProps = {"width":"48","height":"48","viewBox":"0 0 48 48"};
+
+module.exports = IntercomDefault;
+
+IntercomDefault.default = IntercomDefault;

@@ -1,0 +1,11 @@
+var React = require('react');
+
+function ButtonChevronLeft (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M12.93 5.404l-.695-.72-5.446 5.26 5.258 5.446.72-.694L8.203 9.97","fillRule":"evenodd"}));
+}
+
+ButtonChevronLeft.defaultProps = {"width":"20","height":"20","viewBox":"0 0 20 20"};
+
+module.exports = ButtonChevronLeft;
+
+ButtonChevronLeft.default = ButtonChevronLeft;

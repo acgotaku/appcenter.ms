@@ -1,0 +1,11 @@
+var React = require('react');
+
+function SortDown (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M25 13.797l1.406 1.406-10.703 10.703L5 15.203l1.406-1.406 8.297 8.297V6h2v16.094z"}));
+}
+
+SortDown.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = SortDown;
+
+SortDown.default = SortDown;

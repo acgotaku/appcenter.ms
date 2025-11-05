@@ -1,0 +1,11 @@
+var React = require('react');
+
+function AppBuild (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M1 0v19l19-9.5L1 0zm1 1.6v15.8l15.7-7.9L2 1.6z","fillRule":"evenodd"}));
+}
+
+AppBuild.defaultProps = {"width":"20","height":"20","viewBox":"0 0 20 20"};
+
+module.exports = AppBuild;
+
+AppBuild.default = AppBuild;

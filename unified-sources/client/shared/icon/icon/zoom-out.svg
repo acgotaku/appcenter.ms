@@ -1,0 +1,11 @@
+var React = require('react');
+
+function ZoomOut (props) {
+    return React.createElement("svg",props,React.createElement("path",{"fillRule":"evenodd","d":"M19 12c0-3.87-3.13-7-7-7s-7 3.13-7 7 3.13 7 7 7 7-3.13 7-7zM3 12c0-4.97 4.03-9 9-9s9 4.03 9 9-4.03 9-9 9-9-4.03-9-9zm13-1v2H8v-2h8z"}));
+}
+
+ZoomOut.defaultProps = {"width":"24","height":"24","viewBox":"0 0 24 24"};
+
+module.exports = ZoomOut;
+
+ZoomOut.default = ZoomOut;

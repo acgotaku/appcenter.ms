@@ -1,0 +1,20 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "._5YY8glYlx{position:relative;text-align:center;margin:auto}.QIhfC4qjx{position:absolute;top:calc(50% - 11px);left:calc(50% - 11px)}._6mEDwFngx{display:inline-block;vertical-align:middle;transition:opacity 80ms linear;text-indent:-99999px}._689jQ5nVx{max-width:24px;max-height:24px}._4NzLvnhFx{width:24px}._3C80sfagx{max-width:32px;max-height:32px}.hWZEOLKEx{width:70px}.q7DuQy4rx{width:170px}._419parOLx{width:100%}._5pEidMuEx{max-width:60px;max-height:60px}._1JsBoJyEx{height:120px}", "",{"version":3,"sources":["webpack://client/shared/device-card/device-signature-modal.scss"],"names":[],"mappings":"AAAA,YACE,iBAAA,CACA,iBAAA,CACA,WAAA,CAGF,WACE,iBAAA,CACA,oBAAA,CACA,qBAAA,CAGF,YACE,oBAAA,CACA,qBAAA,CACA,8BAAA,CACA,oBAAA,CAGF,YAEE,cAAA,CACA,eAAA,CAGF,YAEE,UAAA,CAGF,YAEE,cAAA,CACA,eAAA,CAGF,WAEE,UAAA,CAGF,WAEE,WAAA,CAGF,YAEE,UAAA,CAGF,YAEE,cAAA,CACA,eAAA,CAGF,YAEE,YAAA","sourcesContent":[".container {\n  position: relative;\n  text-align: center;\n  margin: auto;\n}\n\n.spinner {\n  position: absolute;\n  top: calc(50% - 11px);\n  left: calc(50% - 11px);\n}\n\n.frame {\n  display: inline-block;\n  vertical-align: middle;\n  transition: opacity 80ms linear;\n  text-indent: -99999px;\n}\n\n.tiny {\n  composes: frame;\n  max-width: 24px;\n  max-height: 24px;\n}\n\n.small {\n  composes: frame;\n  width: 24px;\n}\n\n.medium {\n  composes: frame;\n  max-width: 32px;\n  max-height: 32px;\n}\n\n.large {\n  composes: frame;\n  width: 70px;\n}\n\n.xlarge {\n  composes: frame;\n  width: 170px;\n}\n\n.full {\n  composes: frame;\n  width: 100%;\n}\n\n.fit {\n  composes: frame;\n  max-width: 60px;\n  max-height: 60px;\n}\n\n.fitheight {\n  composes: frame;\n  height: 120px;\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"container": "_5YY8glYlx",
+	"spinner": "QIhfC4qjx",
+	"frame": "_6mEDwFngx",
+	"tiny": "_689jQ5nVx _6mEDwFngx",
+	"small": "_4NzLvnhFx _6mEDwFngx",
+	"medium": "_3C80sfagx _6mEDwFngx",
+	"large": "hWZEOLKEx _6mEDwFngx",
+	"xlarge": "q7DuQy4rx _6mEDwFngx",
+	"full": "_419parOLx _6mEDwFngx",
+	"fit": "_5pEidMuEx _6mEDwFngx",
+	"fitheight": "_1JsBoJyEx _6mEDwFngx"
+};
+export default ___CSS_LOADER_EXPORT___;

@@ -1,0 +1,11 @@
+var React = require('react');
+
+function StatusError (props) {
+    return React.createElement("svg",props,React.createElement("path",{"fillRule":"evenodd","d":"M11.5 4.87c.27-.48.72-.48 1 0l7.66 13.26c.28.48.05.87-.5.87H4.36c-.58 0-.8-.4-.53-.87L11.5 4.87zM11 9h2v5h-2V9zm0 6h2v2h-2v-2z"}));
+}
+
+StatusError.defaultProps = {"width":"24","height":"24","viewBox":"0 0 24 24"};
+
+module.exports = StatusError;
+
+StatusError.default = StatusError;

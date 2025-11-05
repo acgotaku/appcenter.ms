@@ -1,0 +1,11 @@
+var React = require('react');
+
+function FilterFilled (props) {
+    return React.createElement("svg",props,React.createElement("g",{"fillRule":"evenodd"},React.createElement("path",{"d":"M0 2h32v3.4l-12 12V30h-8V17.4L0 5.4"})));
+}
+
+FilterFilled.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = FilterFilled;
+
+FilterFilled.default = FilterFilled;

@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Locked (props) {
+    return React.createElement("svg",props,[React.createElement("path",{"d":"M7.167,10a0.833,0.833 0 1,0 1.666,0a0.833,0.833 0 1,0 -1.666,0","key":0}),React.createElement("path",{"d":"M7.5 9.33h1v3h-1z","key":1}),React.createElement("path",{"d":"M2 16h12V6H2zm1-1h10V7H3z","fillRule":"evenodd","key":2}),React.createElement("path",{"d":"M4 7V4.256c0-1.933 1.567-4 4-4s4 2 4 4V7h-1V4.256c0-1.933-1.567-3-3-3s-3 1.134-3 3V7z","key":3})]);
+}
+
+Locked.defaultProps = {"width":"16","height":"16","viewBox":"0 0 16 16"};
+
+module.exports = Locked;
+
+Locked.default = Locked;

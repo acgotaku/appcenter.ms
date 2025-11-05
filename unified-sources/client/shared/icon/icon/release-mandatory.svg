@@ -1,0 +1,11 @@
+var React = require('react');
+
+function ReleaseMandatory (props) {
+    return React.createElement("svg",props,React.createElement("g",{"fill":"none","fillRule":"evenodd","transform":"translate(-4 -10)"},[React.createElement("path",{"d":"M0 0h48v48H0z","style":{"fill":"none"},"key":0}),React.createElement("path",{"d":"M4 4h40v40H4z","style":{"fill":"none"},"key":1}),React.createElement("circle",{"cx":"36","cy":"36","r":"6","fill":"#E2553D","key":2}),React.createElement("path",{"fill":"#AE875C","fillRule":"nonzero","d":"M10 16l-6-6h12l6 6z","style":{"fill":"#AE875C"},"key":3}),React.createElement("path",{"fill":"#88653E","fillRule":"nonzero","d":"M38 16l6-6H28l-6 6z","style":{"fill":"#88653E"},"key":4}),React.createElement("path",{"fill":"#AE875C","fillRule":"nonzero","d":"M38 28.25A8.01 8.01 0 0 0 28.25 38H10V16h28v12.25z","style":{"fill":"#AE875C"},"key":5}),React.createElement("path",{"fill":"#C09D75","fillRule":"nonzero","d":"M10 16h12v22H10z","style":{"fill":"#C09D75"},"key":6})]));
+}
+
+ReleaseMandatory.defaultProps = {"width":"40","height":"32","viewBox":"0 0 40 32"};
+
+module.exports = ReleaseMandatory;
+
+ReleaseMandatory.default = ReleaseMandatory;

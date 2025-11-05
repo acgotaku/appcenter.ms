@@ -1,0 +1,11 @@
+var React = require('react');
+
+function AuthBeacon (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M1 18.005L13.993 18 14 .995 1.007 1 1 18.005zM14.993 1.608l4.13 1.032-4.124 14.433.001 1.932H0L.007 0h14.986v1.608zm0 1.03l.005 10.8 2.88-10.078-2.884-.721zM7.5 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm-1.779.416a3 3 0 1 1 3.557 0A4 4 0 0 1 11.5 14h-1a3 3 0 0 0-6 0h-1a4 4 0 0 1 2.221-3.584z","fill":"#000","fillRule":"nonzero"}));
+}
+
+AuthBeacon.defaultProps = {"width":"20","height":"20"};
+
+module.exports = AuthBeacon;
+
+AuthBeacon.default = AuthBeacon;

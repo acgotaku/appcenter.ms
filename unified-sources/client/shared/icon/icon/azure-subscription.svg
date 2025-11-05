@@ -1,0 +1,11 @@
+var React = require('react');
+
+function AzureSubscription (props) {
+    return React.createElement("svg",props,React.createElement("g",{"fill":"none"},[React.createElement("path",{"fill":"#FCD116","d":"M23.1 12.72c.6-.6.92-1.38.92-2.2 0-.84-.33-1.63-.9-2.22l-5.4-5.38c-1.22-1.22-3.2-1.22-4.42 0L7.9 8.3c-1.2 1.22-1.2 3.2 0 4.42l5.1 4.74v9.14l2.5 2.85 2.5-2.48 1.45-1.47L18 24.05l1.45-1.44L18 21.2l1.45-1.45L18 18.27v-.43l5.1-5.12zM17.08 5.1c.33.55.33 1.23 0 1.8-.32.54-.92.87-1.56.86-.96 0-1.73-.8-1.73-1.77 0-1 .73-1.8 1.7-1.8.65 0 1.25.3 1.57.85z","style":{"fill":"#FCD116"},"key":0}),React.createElement("path",{"fill":"#FF8C00","d":"M14 26.14l1 1.1v-8.77l-1-.54","opacity":".4","style":{"fill":"#FF8C00"},"key":1}),React.createElement("path",{"fill":"#FFF","d":"M10 10h11v1H10v-1zm0 2h11v1H10v-1z","opacity":".4","style":{"fill":"#FFF"},"key":2})]));
+}
+
+AzureSubscription.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = AzureSubscription;
+
+AzureSubscription.default = AzureSubscription;

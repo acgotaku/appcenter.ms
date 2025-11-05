@@ -1,0 +1,11 @@
+var React = require('react');
+
+function DistributionGroup (props) {
+    return React.createElement("svg",props,React.createElement("g",null,[React.createElement("circle",{"fill":"#939393","r":"10","cy":"10","cx":"10","key":0}),React.createElement("path",{"fill":"#fff","d":"m7.180678,10.142924a1.875,1.875 0 0 0 -3.75,0l-0.9375,0a2.8125,2.8125 0 0 1 1.4505,-2.4615a1.875,1.875 0 1 1 2.724,0c0.39525,0.21975 0.73275,0.531 0.98175,0.906a2.8095,2.8095 0 0 1 2.34375,-1.257c0.978,0 1.83975,0.4995 2.34375,1.257c0.249,-0.375 0.5865,-0.68625 0.98175,-0.906a1.875,1.875 0 1 1 2.724,0a2.8125,2.8125 0 0 1 1.4505,2.4615l-0.9375,0a1.875,1.875 0 0 0 -3.75,0c0,0.92925 -0.45,1.75275 -1.14525,2.265a3.75,3.75 0 0 1 2.08275,3.36l-0.9375,0a2.8125,2.8125 0 1 0 -5.625,0l-0.9375,0a3.75,3.75 0 0 1 2.08275,-3.36a2.808,2.808 0 0 1 -1.14525,-2.265zm-1.875,-2.8125a0.9375,0.9375 0 1 0 0,-1.875a0.9375,0.9375 0 0 0 0,1.875zm9.375,0a0.9375,0.9375 0 1 0 0,-1.875a0.9375,0.9375 0 0 0 0,1.875zm-4.6875,4.6875a1.875,1.875 0 1 0 0,-3.75a1.875,1.875 0 0 0 0,3.75z","clipRule":"evenodd","fillRule":"evenodd","key":1})]));
+}
+
+DistributionGroup.defaultProps = {"width":"20","height":"20","xmlnsSvg":"http://www.w3.org/2000/svg"};
+
+module.exports = DistributionGroup;
+
+DistributionGroup.default = DistributionGroup;

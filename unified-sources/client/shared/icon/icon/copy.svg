@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Copy (props) {
+    return React.createElement("svg",props,React.createElement("g",{"fillRule":"evenodd"},React.createElement("path",{"d":"M30 12.6V32H10v-6H2V0h13.4l6 6h2l6.6 6.6zm-6-.6h2.6L24 9.4V12zM10 6h8.6l-4-4H4v22h6V6zm18 8h-6V8H12v22h16V14z"})));
+}
+
+Copy.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = Copy;
+
+Copy.default = Copy;

@@ -1,0 +1,11 @@
+var React = require('react');
+
+function ArrowsDown (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M8.504 18.347L.855 10.698l.701-.7 6.948 6.947V0h.992v16.945l6.948-6.948.7.701-7.648 7.65v.138h-.14l-.021.022-.19.48L9 18.842l-.145.144-.19-.48-.021-.02h-.14v-.14zm53 0l-7.649-7.649.701-.7 6.948 6.947V0h.992v16.945l6.948-6.948.7.701-7.648 7.65v.138h-.14l-.021.022-.19.48-.145-.145-.145.144-.19-.48-.021-.02h-.14v-.14zm-26 0l-7.649-7.649.701-.7 6.948 6.947V0h.992v16.945l6.948-6.948.7.701-7.648 7.65v.138h-.14l-.021.022-.19.48-.145-.145-.145.144-.19-.48-.021-.02h-.14v-.14z","fill":"#000","fillRule":"evenodd","fillOpacity":".38"}));
+}
+
+ArrowsDown.defaultProps = {"width":"71","height":"19"};
+
+module.exports = ArrowsDown;
+
+ArrowsDown.default = ArrowsDown;

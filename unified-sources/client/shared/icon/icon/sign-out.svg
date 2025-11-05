@@ -1,0 +1,11 @@
+var React = require('react');
+
+function SignOut (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M256 1792h896v128H128V0h1024v128H256v1664zm1679-832l-487 488-80-80 345-344H640V896h1073l-345-344 80-80 487 488z"}));
+}
+
+SignOut.defaultProps = {"viewBox":"0 0 2048 2048","width":"32","height":"32"};
+
+module.exports = SignOut;
+
+SignOut.default = SignOut;

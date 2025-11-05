@@ -1,0 +1,11 @@
+var React = require('react');
+
+function ReleaseDisabled (props) {
+    return React.createElement("svg",props,React.createElement("g",{"stroke":"none","strokeWidth":"1","fill":"none","fillRule":"evenodd"},React.createElement("g",{"transform":"translate(-279.000000, -107.000000)"},React.createElement("g",{"transform":"translate(260.000000, 48.000000)"},React.createElement("g",{"transform":"translate(0.000000, 48.000000)"},React.createElement("g",{"transform":"translate(20.000000, 8.000000)"},[React.createElement("rect",{"x":"0","y":"0","width":"24","height":"24","key":0}),React.createElement("polygon",{"fill":"#AE875C","fillRule":"nonzero","points":"3.75 7.5 0 3.75 6.75 3.75 10.5 7.5","key":1}),React.createElement("polygon",{"fill":"#88653E","fillRule":"nonzero","transform":"translate(17.250000, 5.625000) scale(-1, 1) translate(-17.250000, -5.625000) ","points":"14.25 7.5 10.5 3.75 20.25 3.75 24 7.5","key":2}),React.createElement("polygon",{"fill":"#AE875C","fillRule":"nonzero","points":"3.75 7.5 20.25 7.5 20.25 21 3.75 21","key":3}),React.createElement("polygon",{"fill":"#C09D75","fillRule":"nonzero","points":"3.75 7.5 10.5 7.5 10.5 21 3.75 21","key":4}),React.createElement("g",{"transform":"translate(12.000000, 12.000000)","key":5},[React.createElement("circle",{"stroke":"#FFFFFF","fill":"#979797","cx":"6","cy":"6","r":"5.5","key":0}),React.createElement("rect",{"fill":"#FFFFFF","x":"4","y":"5","width":"4","height":"2","key":1})])]))))));
+}
+
+ReleaseDisabled.defaultProps = {"width":"25px","height":"21px","viewBox":"0 0 25 21","version":"1.1"};
+
+module.exports = ReleaseDisabled;
+
+ReleaseDisabled.default = ReleaseDisabled;

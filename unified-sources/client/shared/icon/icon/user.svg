@@ -1,0 +1,11 @@
+var React = require('react');
+
+function User (props) {
+    return React.createElement("svg",props,React.createElement("path",{"fillRule":"evenodd","d":"M6.082 8.928C5.13 8.303 4.5 7.225 4.5 6c0-1.933 1.567-3.5 3.5-3.5s3.5 1.567 3.5 3.5c0 1.225-.63 2.303-1.582 2.928C11.444 9.648 12.5 11.2 12.5 13h-1c0-1.933-1.567-3.5-3.5-3.5S4.5 11.067 4.5 13h-1c0-1.8 1.056-3.352 2.582-4.072zM8 8.5c1.38 0 2.5-1.12 2.5-2.5S9.38 3.5 8 3.5 5.5 4.62 5.5 6 6.62 8.5 8 8.5z"}));
+}
+
+User.defaultProps = {"viewBox":"0 0 16 16"};
+
+module.exports = User;
+
+User.default = User;

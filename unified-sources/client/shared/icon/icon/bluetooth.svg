@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Bluetooth (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M9.07 9.1v4.365l2.286-2.264L9.07 9.1zm2.286-4.3L9.07 2.535v4.36l2.285-2.097zM9.07 6.894V9.1l-1.2-1.103 1.2-1.103zm-4.6 5.58l-.676-.737 4.076-3.74-4.062-3.734.677-.737 8.32 7.648-4.734 4.69V.134l4.735 4.693-8.334 7.648z"}));
+}
+
+Bluetooth.defaultProps = {"width":"16","height":"16","viewBox":"0 0 16 16"};
+
+module.exports = Bluetooth;
+
+Bluetooth.default = Bluetooth;

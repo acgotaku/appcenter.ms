@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Delete (props) {
+    return React.createElement("svg",props,React.createElement("g",{"fillRule":"evenodd"},React.createElement("path",{"d":"M28 6h-2v23c0 .42-.08.8-.23 1.17-.16.37-.37.68-.64.95-.28.28-.6.5-.96.65-.36.15-.75.23-1.17.23H7c-.42 0-.8-.08-1.17-.23-.37-.16-.68-.37-.96-.64-.27-.28-.48-.6-.64-.96C4.08 29.8 4 29.42 4 29V6H2V4h8V2c0-.28.05-.54.16-.78.1-.24.24-.45.43-.63.15-.2.36-.36.6-.46.24-.1.5-.16.8-.16h6c.26 0 .52.04.76.15.24.1.45.24.63.43.2.17.33.38.43.62.1.24.16.5.16.78v2h8v2zM12 4h6V2h-6v2zm12 2H6v23c0 .27.1.5.3.7.2.2.43.3.7.3h16c.27 0 .5-.1.7-.3.2-.2.3-.43.3-.7V6zM12 26h-2V10h2v16zm4 0h-2V10h2v16zm4 0h-2V10h2v16z"})));
+}
+
+Delete.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = Delete;
+
+Delete.default = Delete;

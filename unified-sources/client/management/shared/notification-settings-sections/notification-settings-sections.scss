@@ -1,0 +1,39 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".R6o81EpDx{display:flex}._4wxTtMOJx{border-bottom:1px solid #dedede}._5L3kB1WIx{width:100%}@media screen and (-ms-high-contrast: active){._5L3kB1WIx:active,._5L3kB1WIx:focus{outline:2px dotted highlight;outline-offset:1px}}", "",{"version":3,"sources":["webpack://client/management/shared/notification-settings-sections/notification-settings-sections.scss"],"names":[],"mappings":"AAEA,WACE,YAAA,CAGF,YACE,+BAAA,CAGF,YACE,UAAA,CAGE,8CAFF,qCAGI,4BAAA,CACA,kBAAA,CAAA","sourcesContent":["@import \"~@css/vars.scss\";\n\n.select-container {\n  display: flex;\n}\n\n.bottomline {\n  border-bottom: 1px solid $gray-10;\n}\n\n.select {\n  width: 100%;\n  &:active,\n  &:focus {\n    @media screen and (-ms-high-contrast: active) {\n      outline: 2px dotted highlight;\n      outline-offset: 1px;\n    }\n  }\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"tabletScreen": "768px",
+	"smallScreen": "1100px",
+	"mediumScreen": "1300px",
+	"largeScreen": "1500px",
+	"azure": "#006fc8",
+	"cyan": "#1faece",
+	"primaryText": "var(--primary-text)",
+	"secondaryText": "var(--secondary-text)",
+	"chartGridColor": "var(--ui-divider)",
+	"gray10": "#dedede",
+	"msDarkBlue": "#002050",
+	"amberLight2": "#f7e28b",
+	"violetLight2": "#cec0ec",
+	"tealLight3": "#cfece8",
+	"bannerBlue": "var(--banner-blue)",
+	"spaceXXS": "4px",
+	"spaceXS": "8px",
+	"spaceS": "16px",
+	"spaceM": "20px",
+	"spaceXM": "24px",
+	"spaceL": "32px",
+	"spaceXL": "40px",
+	"spaceXXL": "60px",
+	"panelSlideDuration": "200ms",
+	"panelFadeDuration": "100ms",
+	"ccBannerHeight": "46px",
+	"select-container": "R6o81EpDx",
+	"selectContainer": "R6o81EpDx",
+	"bottomline": "_4wxTtMOJx",
+	"select": "_5L3kB1WIx"
+};
+export default ___CSS_LOADER_EXPORT___;

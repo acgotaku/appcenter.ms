@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Log (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M1 3.994C1 2.894 1.893 2 2.995 2h14.01C18.107 2 19 2.895 19 3.994v12.012c0 1.1-.893 1.994-1.995 1.994H2.995C1.893 18 1 17.105 1 16.006V3.994zM4 5v1.5h12V5H4zm0 3v1.5h12V8H4zm0 3v1.5h7V11H4z","fillRule":"evenodd"}));
+}
+
+Log.defaultProps = {"width":"20","height":"20","viewBox":"0 0 20 20"};
+
+module.exports = Log;
+
+Log.default = Log;

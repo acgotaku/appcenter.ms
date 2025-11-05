@@ -1,0 +1,56 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../node_modules/css-loader/dist/runtime/api.js";
+import ___CSS_LOADER_ICSS_IMPORT_0___ from "-!../../../node_modules/css-loader/dist/cjs.js??ref--6-1!../../../node_modules/postcss-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!../button/button.scss";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+___CSS_LOADER_EXPORT___.i(___CSS_LOADER_ICSS_IMPORT_0___, "", true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "._1OcN8L8hx{display:inline-flex}._1bbkjNNHx{}._5HaPynDWx{}._5HaPynDWx,._5HaPynDWx:hover,._5HaPynDWx:active,._5HaPynDWx.qYeHW3VOx{box-shadow:none}._5TNvi6Ydx{}._5TNvi6Ydx:hover{box-shadow:inset 0 -2px 20px 0 rgba(0,0,0,.1)}._5TNvi6Ydx:active,._5TNvi6Ydx.qYeHW3VOx{box-shadow:inset 0 -2px 20px 0 rgba(0,0,0,.3)}.qYeHW3VOx{}._6jBGAyfqx{position:relative;display:inline-flex}._4JMtavfux{}._7h5Ftl4Px{}._6BPm38l5x{}._5X9oj47Sx{}.mKL8mkgkx{border-top-right-radius:0;border-bottom-right-radius:0}.w43GvV2Ax,._525baVq8x{position:static}.w43GvV2Ax{border-top-left-radius:0;border-bottom-left-radius:0;margin-left:-1px;border-left:1px solid rgba(0,0,0,.1);padding-left:5px;padding-right:5px}.w43GvV2Ax._4JMtavfux{min-width:0;padding-left:0;padding-right:0}.w43GvV2Ax._7h5Ftl4Px{min-width:0;padding-left:3px;padding-right:3px}.w43GvV2Ax._6BPm38l5x{min-width:0;padding-left:5px;padding-right:5px}.w43GvV2Ax._5X9oj47Sx{min-width:0;padding-left:6px;padding-right:6px}._2BRYtJKtx{width:auto;box-shadow:0 6px 12px rgba(0,0,0,.12)}", "",{"version":3,"sources":["webpack://client/shared/menu/menu.scss"],"names":[],"mappings":"AAEA,YACE,mBAAA,CAGF,YACE,CAGF,YACE,CACA,uEACE,eAAA,CAIJ,YACE,CACA,kBAAA,6CAAA,CACA,yCAAA,6CAAA,CAGF,WACE,CAGF,YACE,iBAAA,CACA,mBAAA,CAGF,YAAA,CACA,YAAA,CACA,YAAA,CACA,YAAA,CAEA,WACE,yBAAA,CACA,4BAAA,CAGF,uBAEE,eAAA,CAGF,WACE,wBAAA,CACA,2BAAA,CACA,gBAAA,CACA,oCAAA,CACA,gBAAA,CACA,iBAAA,CACA,sBACE,WAAA,CACA,cAAA,CACA,eAAA,CAEF,sBACE,WAAA,CACA,gBAAA,CACA,iBAAA,CAEF,sBACE,WAAA,CACA,gBAAA,CACA,iBAAA,CAEF,sBACE,WAAA,CACA,gBAAA,CACA,iBAAA,CAIJ,YACE,UAAA,CACA,qCAAA","sourcesContent":["@import \"../styles/variables.scss\";\n\n.menu {\n  display: inline-flex;\n}\n\n.button {\n  composes: button from '../button/button.scss';\n}\n\n.button-like {\n  composes: button-like from '../button/button.scss';\n  &, &:hover, &:active, &.active {\n    box-shadow: none;\n  }\n}\n\n.colorful-button {\n  composes: colorful-button from '../button/button.scss';\n  &:hover { box-shadow: inset 0 -2px 20px 0 rgba(0, 0, 0, 0.1); }\n  &:active, &.active { box-shadow: inset 0 -2px 20px 0 rgba(0, 0, 0, 0.3); }\n}\n\n.active {\n  composes: active from '../button/button.scss';\n}\n\n.split-menu {\n  position: relative;\n  display: inline-flex;\n}\n\n.xsmall { composes: xsmall from '../button/button.scss'; }\n.small { composes: small from '../button/button.scss'; }\n.normal { composes: normal from '../button/button.scss'; }\n.large { composes: large from '../button/button.scss'; }\n\n.primary-action {\n  border-top-right-radius: 0;\n  border-bottom-right-radius: 0;\n}\n\n.secondary-action,\n.dropdown {\n  position: static; // Let the Overlay’s position be with respect to the outer .split-menu, not this button\n}\n\n.secondary-action {\n  border-top-left-radius: 0;\n  border-bottom-left-radius: 0;\n  margin-left: -1px;\n  border-left: 1px solid rgba(0, 0, 0, 0.1);\n  padding-left: 5px;\n  padding-right: 5px;\n  &.xsmall {\n    min-width: 0;\n    padding-left: 0;\n    padding-right: 0;\n  }\n  &.small {\n    min-width: 0;\n    padding-left: 3px;\n    padding-right: 3px;\n  }\n  &.normal {\n    min-width: 0;\n    padding-left: 5px;\n    padding-right: 5px;\n  }\n  &.large {\n    min-width: 0;\n    padding-left: 6px;\n    padding-right: 6px;\n  }\n}\n\n.list {\n  width: auto;\n  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12); // Menu overlay specific box-shadow\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"tabletScreen": "768px",
+	"smallScreen": "1100px",
+	"mediumScreen": "1300px",
+	"largeScreen": "1500px",
+	"azure": "#006fc8",
+	"cyan": "#1faece",
+	"primaryText": "var(--primary-text)",
+	"secondaryText": "var(--secondary-text)",
+	"chartGridColor": "var(--ui-divider)",
+	"gray10": "#dedede",
+	"msDarkBlue": "#002050",
+	"amberLight2": "#f7e28b",
+	"violetLight2": "#cec0ec",
+	"tealLight3": "#cfece8",
+	"bannerBlue": "var(--banner-blue)",
+	"spaceXXS": "4px",
+	"spaceXS": "8px",
+	"spaceS": "16px",
+	"spaceM": "20px",
+	"spaceXM": "24px",
+	"spaceL": "32px",
+	"spaceXL": "40px",
+	"spaceXXL": "60px",
+	"panelSlideDuration": "200ms",
+	"panelFadeDuration": "100ms",
+	"ccBannerHeight": "46px",
+	"menu": "_1OcN8L8hx",
+	"button": "_1bbkjNNHx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["button"] + "",
+	"button-like": "_5HaPynDWx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["button-like"] + "",
+	"buttonLike": "_5HaPynDWx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["button-like"] + "",
+	"active": "qYeHW3VOx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["active"] + "",
+	"colorful-button": "_5TNvi6Ydx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["colorful-button"] + "",
+	"colorfulButton": "_5TNvi6Ydx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["colorful-button"] + "",
+	"split-menu": "_6jBGAyfqx",
+	"splitMenu": "_6jBGAyfqx",
+	"xsmall": "_4JMtavfux " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["xsmall"] + "",
+	"small": "_7h5Ftl4Px " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["small"] + "",
+	"normal": "_6BPm38l5x " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["normal"] + "",
+	"large": "_5X9oj47Sx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["large"] + "",
+	"primary-action": "mKL8mkgkx",
+	"primaryAction": "mKL8mkgkx",
+	"secondary-action": "w43GvV2Ax",
+	"secondaryAction": "w43GvV2Ax",
+	"dropdown": "_525baVq8x",
+	"list": "_2BRYtJKtx"
+};
+export default ___CSS_LOADER_EXPORT___;

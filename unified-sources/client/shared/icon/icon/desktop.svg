@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Desktop (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M0 0h30v18H16v2h4v2H10v-2h4v-2H0V0zm28 16V2H2v14h26zM3.56 24h22.88L30 29.22V30H0v-.78L3.56 24zm-.31 4h23.5l-1.38-2H4.63l-1.37 2z","fillRule":"evenodd"}));
+}
+
+Desktop.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = Desktop;
+
+Desktop.default = Desktop;

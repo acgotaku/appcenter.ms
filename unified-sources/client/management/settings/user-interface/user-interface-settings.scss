@@ -1,0 +1,43 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "._67SsyhZDx{width:450px}._2zzTXKkhx{margin:0 16px 0 4px;border:3px solid var(--surface-card)}._2zzTXKkhx label{padding:0;display:block}._2zzTXKkhx:hover{border:3px solid var(--surface-card)}._643PCwqNx{border:3px solid #3f9ae4}._643PCwqNx:hover{border:3px solid #3f9ae4}._52CV7hvLx{width:100%;margin-bottom:-5px}", "",{"version":3,"sources":["webpack://client/management/settings/user-interface/user-interface-settings.scss"],"names":[],"mappings":"AAEA,YACE,WAAA,CAGF,YAKE,mBAAA,CACA,oCAAA,CALA,kBACE,SAAA,CACA,aAAA,CAKF,kBACE,oCAAA,CAIJ,YAEE,wBAAA,CAEA,kBACE,wBAAA,CAIJ,YACE,UAAA,CACA,kBAAA","sourcesContent":["@import '~@css/vars.scss';\n\n.theme-list {\n  width: 450px;\n}\n\n.theme-item {\n  label {\n    padding: 0;\n    display: block;\n  }\n  margin: 0 16px 0 4px;\n  border: 3px solid var(--surface-card);\n\n  &:hover {\n    border: 3px solid var(--surface-card);\n  }\n}\n\n.theme-checked {\n  composes: theme-item;\n  border: 3px solid $azure-light1;\n\n  &:hover {\n    border: 3px solid $azure-light1;\n  }\n}\n\n.theme-thumb {\n  width: 100%;\n  margin-bottom: -5px;\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"tabletScreen": "768px",
+	"smallScreen": "1100px",
+	"mediumScreen": "1300px",
+	"largeScreen": "1500px",
+	"azure": "#006fc8",
+	"cyan": "#1faece",
+	"primaryText": "var(--primary-text)",
+	"secondaryText": "var(--secondary-text)",
+	"chartGridColor": "var(--ui-divider)",
+	"gray10": "#dedede",
+	"msDarkBlue": "#002050",
+	"amberLight2": "#f7e28b",
+	"violetLight2": "#cec0ec",
+	"tealLight3": "#cfece8",
+	"bannerBlue": "var(--banner-blue)",
+	"spaceXXS": "4px",
+	"spaceXS": "8px",
+	"spaceS": "16px",
+	"spaceM": "20px",
+	"spaceXM": "24px",
+	"spaceL": "32px",
+	"spaceXL": "40px",
+	"spaceXXL": "60px",
+	"panelSlideDuration": "200ms",
+	"panelFadeDuration": "100ms",
+	"ccBannerHeight": "46px",
+	"theme-list": "_67SsyhZDx",
+	"themeList": "_67SsyhZDx",
+	"theme-item": "_2zzTXKkhx",
+	"themeItem": "_2zzTXKkhx",
+	"theme-checked": "_643PCwqNx _2zzTXKkhx",
+	"themeChecked": "_643PCwqNx _2zzTXKkhx",
+	"theme-thumb": "_52CV7hvLx",
+	"themeThumb": "_52CV7hvLx"
+};
+export default ___CSS_LOADER_EXPORT___;

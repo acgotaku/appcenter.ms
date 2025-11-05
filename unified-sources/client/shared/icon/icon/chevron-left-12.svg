@@ -1,0 +1,11 @@
+var React = require('react');
+
+function ChevronLeft12 (props) {
+    return React.createElement("svg",props,React.createElement("path",{"fillRule":"nonzero","d":"M8.93 1.4l-.7-.72L2.8 5.94l5.26 5.45.72-.7L4.2 5.98z"}));
+}
+
+ChevronLeft12.defaultProps = {"width":"12","height":"12","viewBox":"0 0 12 12"};
+
+module.exports = ChevronLeft12;
+
+ChevronLeft12.default = ChevronLeft12;

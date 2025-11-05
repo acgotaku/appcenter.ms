@@ -1,0 +1,11 @@
+var React = require('react');
+
+function TrendingUp (props) {
+    return React.createElement("svg",props,React.createElement("g",{"fillRule":"evenodd"},React.createElement("path",{"d":"M30 16h2V6H22v2h6.6L18 18.6l-6-6-12 12L1.5 26 12 15.4l6 6 12-12"})));
+}
+
+TrendingUp.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = TrendingUp;
+
+TrendingUp.default = TrendingUp;

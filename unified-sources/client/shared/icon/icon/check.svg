@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Check (props) {
+    return React.createElement("svg",props,React.createElement("g",{"fillRule":"evenodd"},React.createElement("path",{"d":"M27.3 7.3l1.4 1.4L12 25.4l-8.7-8.7 1.4-1.4 7.3 7.3"})));
+}
+
+Check.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = Check;
+
+Check.default = Check;

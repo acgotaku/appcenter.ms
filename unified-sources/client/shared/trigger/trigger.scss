@@ -1,0 +1,10 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "@media screen and (-ms-high-contrast: active){._4Ic9NqDgx:focus{transform:scale(1)}}", "",{"version":3,"sources":["webpack://client/shared/trigger/trigger.scss"],"names":[],"mappings":"AAEE,8CAFF,kBAGI,kBAAA,CAAA","sourcesContent":[".active:focus {\n  // Edge: High contrast mode\n  @media screen and (-ms-high-contrast: active) {\n    transform: scale(1);\n  }\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"active": "_4Ic9NqDgx"
+};
+export default ___CSS_LOADER_EXPORT___;

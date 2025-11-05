@@ -1,0 +1,11 @@
+var React = require('react');
+
+function ButtonExpandMore (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M5.404 7.07l-.72.695 5.26 5.446 5.446-5.258-.694-.72-4.727 4.565","fillRule":"evenodd"}));
+}
+
+ButtonExpandMore.defaultProps = {"width":"20","height":"20","viewBox":"0 0 20 20"};
+
+module.exports = ButtonExpandMore;
+
+ButtonExpandMore.default = ButtonExpandMore;

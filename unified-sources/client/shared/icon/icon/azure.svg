@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Azure (props) {
+    return React.createElement("svg",props,React.createElement("g",{"fill":"#1874ba","transform":"translate(0 -1)"},[React.createElement("path",{"fill":"#1874ba","d":"m4.7 18.7h15.3l-8.2-14-2.6 6.8 4.7 5.5z","style":{"fill":"#1874ba"},"key":0}),React.createElement("path",{"fill":"#1874ba","d":"m10.7 3.3-6.2 14h-4.5l5-8.9z","style":{"fill":"#1874ba"},"key":1})]));
+}
+
+Azure.defaultProps = {"enableBackground":"new 0 0 20 20","viewBox":"0 0 20 20"};
+
+module.exports = Azure;
+
+Azure.default = Azure;

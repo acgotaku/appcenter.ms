@@ -1,0 +1,10 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".soxz2Osox{cursor:pointer;text-decoration:inherit;color:inherit}", "",{"version":3,"sources":["webpack://client/shared/anchor/anchor.scss"],"names":[],"mappings":"AAAA,WACE,cAAA,CACA,uBAAA,CACA,aAAA","sourcesContent":[".anchor {\n  cursor: pointer;\n  text-decoration: inherit;\n  color: inherit;\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"anchor": "soxz2Osox"
+};
+export default ___CSS_LOADER_EXPORT___;

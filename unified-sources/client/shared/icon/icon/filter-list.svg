@@ -1,0 +1,11 @@
+var React = require('react');
+
+function FilterList (props) {
+    return React.createElement("svg",props,React.createElement("path",{"fillRule":"evenodd","d":"M10 12v7l4-1v-6l6-7H4"}));
+}
+
+FilterList.defaultProps = {"width":"24","height":"24","viewBox":"0 0 24 24"};
+
+module.exports = FilterList;
+
+FilterList.default = FilterList;

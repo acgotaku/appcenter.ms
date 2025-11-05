@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Email (props) {
+    return React.createElement("svg",props,React.createElement("g",{"fillRule":"evenodd"},React.createElement("path",{"d":"M0 6h32v20H0V6zm29.77 2H2.23L16 14.9 29.77 8zM2 24h28V10.12l-14 7-14-7V24z"})));
+}
+
+Email.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = Email;
+
+Email.default = Email;

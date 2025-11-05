@@ -1,0 +1,11 @@
+var React = require('react');
+
+function MoreFilled (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M15 0a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 12a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 12a3 3 0 1 1 0 6 3 3 0 0 1 0-6z","fillRule":"evenodd"}));
+}
+
+MoreFilled.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = MoreFilled;
+
+MoreFilled.default = MoreFilled;

@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Download (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M6 32v-2h18v2H6zm-.7-15.3l1.4-1.4 7.3 7.3V0h2v22.6l7.3-7.3 1.4 1.4-9.7 9.8-9.7-9.8z","fillRule":"evenodd"}));
+}
+
+Download.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = Download;
+
+Download.default = Download;

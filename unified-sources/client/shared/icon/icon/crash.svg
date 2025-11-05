@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Crash (props) {
+    return React.createElement("svg",props,React.createElement("g",{"fillRule":"evenodd"},React.createElement("path",{"d":"M22.1 0l-3 12H27L10.5 32l3.3-14H6L22.1 0zM10.47 16h5.86l-1.9 8.1L22.75 14h-6.2l1.65-6.65L10.48 16z"})));
+}
+
+Crash.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = Crash;
+
+Crash.default = Crash;

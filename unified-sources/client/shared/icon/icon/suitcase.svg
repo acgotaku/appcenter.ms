@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Suitcase (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M5 3V1h6v2h5v11H0V3h5zm1 6.81l-5-2.5V13h14V7.31l-5 2.5V11H6V9.81zm0-1.12V8h4v.69l5-2.5V4H1v2.19l5 2.5zM7 10h2V9H7v1zM6 3h4V2H6v1z","fillRule":"nonzero"}));
+}
+
+Suitcase.defaultProps = {"width":"16","height":"16","viewBox":"0 0 16 16"};
+
+module.exports = Suitcase;
+
+Suitcase.default = Suitcase;

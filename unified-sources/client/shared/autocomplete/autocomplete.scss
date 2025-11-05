@@ -1,0 +1,17 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../node_modules/css-loader/dist/runtime/api.js";
+import ___CSS_LOADER_ICSS_IMPORT_0___ from "-!../../../node_modules/css-loader/dist/cjs.js??ref--6-1!../../../node_modules/postcss-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!../styles/utils.scss";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+___CSS_LOADER_EXPORT___.i(___CSS_LOADER_ICSS_IMPORT_0___, "", true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "._3lfd1Wjvx{max-width:300px}input._3AJ92oX0x,._3AJ92oX0x input{max-width:100%}._1snu0bYXx{flex:1}._6fmlPcD9x{}", "",{"version":3,"sources":["webpack://client/shared/autocomplete/autocomplete.scss"],"names":[],"mappings":"AAAA,YACE,eAAA,CAGF,mCACE,cAAA,CAGF,YACE,MAAA,CAGF,YACE","sourcesContent":[".autocomplete {\n  max-width: 300px;\n}\n\ninput.input, .input input {\n  max-width: 100%;\n}\n\n.autocomplete-input-wrapper {\n  flex: 1;\n}\n\n.sr-text {\n  composes: screen-reader-only from '~@css/utils.scss';\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"autocomplete": "_3lfd1Wjvx",
+	"input": "_3AJ92oX0x",
+	"autocomplete-input-wrapper": "_1snu0bYXx",
+	"autocompleteInputWrapper": "_1snu0bYXx",
+	"sr-text": "_6fmlPcD9x " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["screen-reader-only"] + "",
+	"srText": "_6fmlPcD9x " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["screen-reader-only"] + ""
+};
+export default ___CSS_LOADER_EXPORT___;

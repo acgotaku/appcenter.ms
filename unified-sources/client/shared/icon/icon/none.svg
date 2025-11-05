@@ -1,0 +1,11 @@
+var React = require('react');
+
+function None (props) {
+    return React.createElement("svg",props);
+}
+
+None.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = None;
+
+None.default = None;

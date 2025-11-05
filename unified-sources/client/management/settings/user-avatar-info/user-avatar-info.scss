@@ -1,0 +1,14 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../../node_modules/css-loader/dist/runtime/api.js";
+import ___CSS_LOADER_ICSS_IMPORT_0___ from "-!../../../../node_modules/css-loader/dist/cjs.js??ref--6-1!../../../../node_modules/postcss-loader/dist/cjs.js!../../../../node_modules/sass-loader/dist/cjs.js!../../../shared/styles/utils.scss";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+___CSS_LOADER_EXPORT___.i(___CSS_LOADER_ICSS_IMPORT_0___, "", true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "._3YTQOdEVx{justify-content:center;flex-direction:column;height:200px;padding:10px}._7wqXLdz0x{max-width:100%}", "",{"version":3,"sources":["webpack://client/management/settings/user-avatar-info/user-avatar-info.scss"],"names":[],"mappings":"AAAA,YACE,sBAAA,CAEA,qBAAA,CACA,YAAA,CACA,YAAA,CAGF,YACE,cAAA","sourcesContent":[".user-avatar-info-container {\n  justify-content: center;\n  composes: vertically-center from \"~@css/utils.scss\";\n  flex-direction: column;\n  height: 200px;\n  padding: 10px;\n}\n\n.name {\n  max-width: 100%;\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"user-avatar-info-container": "_3YTQOdEVx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["vertically-center"] + "",
+	"userAvatarInfoContainer": "_3YTQOdEVx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["vertically-center"] + "",
+	"name": "_7wqXLdz0x"
+};
+export default ___CSS_LOADER_EXPORT___;

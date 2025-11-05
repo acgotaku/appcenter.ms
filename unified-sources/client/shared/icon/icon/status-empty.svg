@@ -1,0 +1,11 @@
+var React = require('react');
+
+function StatusEmpty (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M0, 16 a 16, 16 0 1, 0 32, 0 a 16, 16 0 1, 0 -32, 0"}));
+}
+
+StatusEmpty.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = StatusEmpty;
+
+StatusEmpty.default = StatusEmpty;

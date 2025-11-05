@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Phone (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M24 0a2 2 0 0 1 1.4.6A2 2 0 0 1 26 2v28a2 2 0 0 1-.6 1.4 2 2 0 0 1-1.4.6H8a2 2 0 0 1-1.4-.6A2 2 0 0 1 6 30V2A2 2 0 0 1 6.6.6 2 2 0 0 1 8 0h16zm0 2H8v28h16V2zM14 26h4v2h-4v-2z","fillRule":"evenodd"}));
+}
+
+Phone.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = Phone;
+
+Phone.default = Phone;

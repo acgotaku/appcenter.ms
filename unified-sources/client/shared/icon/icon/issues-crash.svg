@@ -1,0 +1,11 @@
+var React = require('react');
+
+function IssuesCrash (props) {
+    return React.createElement("svg",props,React.createElement("g",{"fill":"none","fillRule":"evenodd"},[React.createElement("circle",{"cx":"6","cy":"6","r":"6","fill":"#DC0D1F","key":0}),React.createElement("path",{"fill":"#FFF","d":"M6.5 2l-4 5h3v3l4-5h-3z","style":{"fill":"#FFF"},"key":1})]));
+}
+
+IssuesCrash.defaultProps = {"width":"12","height":"12","viewBox":"0 0 12 12"};
+
+module.exports = IssuesCrash;
+
+IssuesCrash.default = IssuesCrash;

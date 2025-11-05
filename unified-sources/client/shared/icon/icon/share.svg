@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Share (props) {
+    return React.createElement("svg",props,React.createElement("g",{"fillRule":"evenodd"},React.createElement("path",{"d":"M13.63 16.68c2.45-.64 4.68-.8 6.48-.7l1.9.1v3.03l6.2-6.1L22 6.84v3.13l-1.96.04c-6.2.13-10.87 3.53-12.45 9.2 1.9-1.15 3.9-2 6-2.53zM5 23.72C5 13.72 11.8 8.18 20 8V2l11 11-11 10.9v-5.93c-.35-.02-.93-.04-1.68 0H18c-3 .2-8.3 1.25-13 5.75zM2 9v19h20v-2.5l2-1.5v6H0V9h2z","fillRule":"nonzero"})));
+}
+
+Share.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = Share;
+
+Share.default = Share;

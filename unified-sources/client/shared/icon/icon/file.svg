@@ -1,0 +1,11 @@
+var React = require('react');
+
+function File (props) {
+    return React.createElement("svg",props,React.createElement("path",{"fillRule":"evenodd","clipRule":"evenodd","d":"M0 0V40H32V11.333L20.543 0H0Z","fill":"black"}));
+}
+
+File.defaultProps = {"width":"32","height":"40","viewBox":"0 0 32 40","fill":"none"};
+
+module.exports = File;
+
+File.default = File;

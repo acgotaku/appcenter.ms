@@ -1,0 +1,11 @@
+var React = require('react');
+
+function AppLogoPlaceholder (props) {
+    return React.createElement("svg",props,[React.createElement("title",{"key":0},"icon"),React.createElement("desc",{"key":1},"Created with Sketch."),React.createElement("defs",{"key":2},[React.createElement("path",{"d":"M19.54075,0 C22.5525,0 24.058,0 25.67925,0.5125 C27.44925,1.15675 28.84325,2.55075 29.4875,4.32075 C30,5.94175 30,7.44775 30,10.45925 L30,19.54075 C30,22.5525 30,24.058 29.4875,25.67925 C28.84325,27.44925 27.44925,28.84325 25.67925,29.48725 C24.058,30 22.5525,30 19.54075,30 L10.45925,30 C7.4475,30 5.94175,30 4.32075,29.48725 C2.55075,28.84325 1.15675,27.44925 0.5125,25.67925 C0,24.058 0,22.5525 0,19.54075 L0,10.45925 C0,7.44775 0,5.94175 0.5125,4.32075 C1.15675,2.55075 2.55075,1.15675 4.32075,0.5125 C5.94175,0 7.4475,0 10.45925,0 L19.54075,0 Z","id":"path-1","key":0}),React.createElement("filter",{"x":"-50%","y":"-50%","width":"200%","height":"200%","filterUnits":"objectBoundingBox","id":"filter-3","key":1},[React.createElement("feOffset",{"dx":"0","dy":"1","in":"SourceAlpha","result":"shadowOffsetOuter1","key":0}),React.createElement("feGaussianBlur",{"stdDeviation":"1","in":"shadowOffsetOuter1","result":"shadowBlurOuter1","key":1}),React.createElement("feColorMatrix",{"values":"0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.200000003 0","type":"matrix","in":"shadowBlurOuter1","key":2})])]),React.createElement("g",{"id":"Page-1","stroke":"none","strokeWidth":"1","fill":"none","fillRule":"evenodd","key":3},React.createElement("g",{"id":"icon","transform":"translate(2.000000, 1.000000)"},[React.createElement("mask",{"id":"mask-2","fill":"white","key":0},React.createElement("use",{"xlinkHref":"#path-1"})),React.createElement("g",{"id":"app-icon","key":1},[React.createElement("use",{"fill":"black","fillOpacity":"1","filter":"url(#filter-3)","xlinkHref":"#path-1","key":0}),React.createElement("use",{"fill":"#D8D8D8","fillRule":"evenodd","xlinkHref":"#path-1","key":1})])]))]);
+}
+
+AppLogoPlaceholder.defaultProps = {"width":"34px","height":"34px","viewBox":"0 0 34 34","version":"1.1"};
+
+module.exports = AppLogoPlaceholder;
+
+AppLogoPlaceholder.default = AppLogoPlaceholder;

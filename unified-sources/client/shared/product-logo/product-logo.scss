@@ -1,0 +1,37 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "._62e0XeeRx{display:flex;align-items:flex-end;white-space:nowrap}._62e0XeeRx>img{height:100%}._62e0XeeRx._2YydCY2Ex>svg path{fill:var(--always-light-text)}", "",{"version":3,"sources":["webpack://client/shared/product-logo/product-logo.scss"],"names":[],"mappings":"AAEA,YACE,YAAA,CACA,oBAAA,CACA,kBAAA,CAEA,gBACE,WAAA,CAKE,gCACE,6BAAA","sourcesContent":["@import '../styles/variables.scss';\n\n.logo {\n  display: flex;\n  align-items: flex-end;\n  white-space: nowrap;\n\n  > img {\n    height: 100%;\n  }\n\n  &.invert {\n    > svg {\n      path {\n        fill: var(--always-light-text);\n      }\n    }\n  }\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"tabletScreen": "768px",
+	"smallScreen": "1100px",
+	"mediumScreen": "1300px",
+	"largeScreen": "1500px",
+	"azure": "#006fc8",
+	"cyan": "#1faece",
+	"primaryText": "var(--primary-text)",
+	"secondaryText": "var(--secondary-text)",
+	"chartGridColor": "var(--ui-divider)",
+	"gray10": "#dedede",
+	"msDarkBlue": "#002050",
+	"amberLight2": "#f7e28b",
+	"violetLight2": "#cec0ec",
+	"tealLight3": "#cfece8",
+	"bannerBlue": "var(--banner-blue)",
+	"spaceXXS": "4px",
+	"spaceXS": "8px",
+	"spaceS": "16px",
+	"spaceM": "20px",
+	"spaceXM": "24px",
+	"spaceL": "32px",
+	"spaceXL": "40px",
+	"spaceXXL": "60px",
+	"panelSlideDuration": "200ms",
+	"panelFadeDuration": "100ms",
+	"ccBannerHeight": "46px",
+	"logo": "_62e0XeeRx",
+	"invert": "_2YydCY2Ex"
+};
+export default ___CSS_LOADER_EXPORT___;

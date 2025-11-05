@@ -1,0 +1,43 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "._3r1CtXIAx{box-shadow:0px 1px 2px 0px rgba(0,0,0,.2);border-radius:25%}@media screen and (-ms-high-contrast: active){._3r1CtXIAx{border:1px solid windowText;box-sizing:border-box}}._4S6SWWfkx{display:inline-flex}.l2NUwtRHx{border-radius:20%;-webkit-mask-image:url(\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTY1IDBjMTAuMiAwIDE1LjIgMCAyMC42IDEuN0M5MS42IDQgOTYgOC41IDk4LjMgMTQuNCAxMDAgMTkuOCAxMDAgMjQuOCAxMDAgMzV2MzBjMCAxMC4yIDAgMTUuMi0xLjcgMjAuNi0yLjIgNi02LjggMTAuNS0xMi43IDEyLjdDODAuMiAxMDAgNzUuMiAxMDAgNjUgMTAwSDM1Yy0xMC4yIDAtMTUuMiAwLTIwLjYtMS43QzguNCA5NiA0IDkxLjUgMS43IDg1LjYgMCA4MC4yIDAgNzUuMiAwIDY1VjM1YzAtMTAuMiAwLTE1LjIgMS43LTIwLjZDNCA4LjQgOC41IDQgMTQuNCAxLjcgMTkuOCAwIDI0LjggMCAzNSAwaDMweiIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+\");mask-image:url(\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTY1IDBjMTAuMiAwIDE1LjIgMCAyMC42IDEuN0M5MS42IDQgOTYgOC41IDk4LjMgMTQuNCAxMDAgMTkuOCAxMDAgMjQuOCAxMDAgMzV2MzBjMCAxMC4yIDAgMTUuMi0xLjcgMjAuNi0yLjIgNi02LjggMTAuNS0xMi43IDEyLjdDODAuMiAxMDAgNzUuMiAxMDAgNjUgMTAwSDM1Yy0xMC4yIDAtMTUuMiAwLTIwLjYtMS43QzguNCA5NiA0IDkxLjUgMS43IDg1LjYgMCA4MC4yIDAgNzUuMiAwIDY1VjM1YzAtMTAuMiAwLTE1LjIgMS43LTIwLjZDNCA4LjQgOC41IDQgMTQuNCAxLjcgMTkuOCAwIDI0LjggMCAzNSAwaDMweiIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+\");-webkit-mask-size:100%;mask-size:100%}._2eHali0Mx{border-radius:10%}._5prkdvOTx{border-radius:10%}._2U0z2aIAx{background:#0075da;border-radius:10%}._3Kt3udPUx{background:#fff;border-radius:10%}", "",{"version":3,"sources":["webpack://client/shared/app-icon/app-icon.scss"],"names":[],"mappings":"AAEA,YACE,yCAAA,CACA,iBAAA,CACA,8CAHF,YAII,2BAAA,CACA,qBAAA,CAAA,CAIJ,YACE,mBAAA,CAKF,WAEE,iBAAA,CACA,gmBAAA,CAAA,wlBAAA,CACA,sBAAA,CAAA,cAAA,CAGF,YAEE,iBAAA,CAGF,YAEE,iBAAA,CAGF,YAEE,kBAAA,CACA,iBAAA,CAGF,YAEE,eAAA,CACA,iBAAA","sourcesContent":["@import \"../styles/variables.scss\";\n\n.app {\n  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);\n  border-radius: 25%;\n  @media screen and (-ms-high-contrast: active) {\n    border: 1px solid windowText;\n    box-sizing: border-box;\n  }\n}\n\n.os-icon {\n  display: inline-flex;\n}\n\n$ios-mask: \"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTY1IDBjMTAuMiAwIDE1LjIgMCAyMC42IDEuN0M5MS42IDQgOTYgOC41IDk4LjMgMTQuNCAxMDAgMTkuOCAxMDAgMjQuOCAxMDAgMzV2MzBjMCAxMC4yIDAgMTUuMi0xLjcgMjAuNi0yLjIgNi02LjggMTAuNS0xMi43IDEyLjdDODAuMiAxMDAgNzUuMiAxMDAgNjUgMTAwSDM1Yy0xMC4yIDAtMTUuMiAwLTIwLjYtMS43QzguNCA5NiA0IDkxLjUgMS43IDg1LjYgMCA4MC4yIDAgNzUuMiAwIDY1VjM1YzAtMTAuMiAwLTE1LjIgMS43LTIwLjZDNCA4LjQgOC41IDQgMTQuNCAxLjcgMTkuOCAwIDI0LjggMCAzNSAwaDMweiIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+\";\n\n.ios {\n  composes: os-icon;\n  border-radius: 20%;\n  mask-image: url($ios-mask);\n  mask-size: 100%;\n}\n\n.macos {\n  composes: os-icon;\n  border-radius: 10%;\n}\n\n.android {\n  composes: os-icon;\n  border-radius: 10%;\n}\n\n.windows {\n  composes: os-icon;\n  background: #0075DA;\n  border-radius: 10%;\n}\n\n.generic {\n  composes: os-icon;\n  background: #fff;\n  border-radius: 10%;\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"tabletScreen": "768px",
+	"smallScreen": "1100px",
+	"mediumScreen": "1300px",
+	"largeScreen": "1500px",
+	"azure": "#006fc8",
+	"cyan": "#1faece",
+	"primaryText": "var(--primary-text)",
+	"secondaryText": "var(--secondary-text)",
+	"chartGridColor": "var(--ui-divider)",
+	"gray10": "#dedede",
+	"msDarkBlue": "#002050",
+	"amberLight2": "#f7e28b",
+	"violetLight2": "#cec0ec",
+	"tealLight3": "#cfece8",
+	"bannerBlue": "var(--banner-blue)",
+	"spaceXXS": "4px",
+	"spaceXS": "8px",
+	"spaceS": "16px",
+	"spaceM": "20px",
+	"spaceXM": "24px",
+	"spaceL": "32px",
+	"spaceXL": "40px",
+	"spaceXXL": "60px",
+	"panelSlideDuration": "200ms",
+	"panelFadeDuration": "100ms",
+	"ccBannerHeight": "46px",
+	"app": "_3r1CtXIAx",
+	"os-icon": "_4S6SWWfkx",
+	"osIcon": "_4S6SWWfkx",
+	"ios": "l2NUwtRHx _4S6SWWfkx",
+	"macos": "_2eHali0Mx _4S6SWWfkx",
+	"android": "_5prkdvOTx _4S6SWWfkx",
+	"windows": "_2U0z2aIAx _4S6SWWfkx",
+	"generic": "_3Kt3udPUx _4S6SWWfkx"
+};
+export default ___CSS_LOADER_EXPORT___;

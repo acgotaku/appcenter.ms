@@ -1,0 +1,11 @@
+var React = require('react');
+
+function ZipFile (props) {
+    return React.createElement("svg",props,[React.createElement("def",{"key":0},React.createElement("style",null,"#format {fill: #fff;}@media screen and (-ms-high-contrast: active) {#file {fill: windowText;}#format {fill: window;}}")),React.createElement("g",{"fillRule":"evenodd","key":1},[React.createElement("path",{"id":"file","d":"M9 4v40h30V15.333L27.543 4","key":0}),React.createElement("path",{"id":"format","d":"M20 4h3v3h-3V4zm3 3h3v3h-3V7zm-3 3h3v3h-3v-3zm3 3h3v3h-3v-3zm-3 3h3v3h-3v-3zm3 3h3v3h-3v-3zm-3 3h3v3h-3v-3zm3 3h3v3h-3v-3zM18.805 39h4.168v-.633H19.73v-.062l3.176-4.442v-.5h-3.992v.633h3.082v.063l-3.19 4.44v.5zm6.152 0v-5.637h-.703V39h.703zm1.438-5.637h2.128c1.067 0 1.805.75 1.805 1.825 0 1.054-.754 1.8-1.812 1.8h-1.418V39h-.703v-5.637zm.703.625v2.375h1.242c.8 0 1.265-.43 1.265-1.175 0-.774-.45-1.2-1.265-1.2h-1.242z","key":1})])]);
+}
+
+ZipFile.defaultProps = {"width":"48","height":"48","viewBox":"0 0 48 48"};
+
+module.exports = ZipFile;
+
+ZipFile.default = ZipFile;

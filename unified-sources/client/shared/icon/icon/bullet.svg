@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Bullet (props) {
+    return React.createElement("svg",props,React.createElement("path",{"fillRule":"evenodd","d":"M12 15c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3z"}));
+}
+
+Bullet.defaultProps = {"width":"24","height":"24","viewBox":"0 0 24 24"};
+
+module.exports = Bullet;
+
+Bullet.default = Bullet;

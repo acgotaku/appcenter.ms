@@ -1,0 +1,11 @@
+var React = require('react');
+
+function VideoPlay (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M8 2l20 14L8 30V2zm2 3.8v20.4L24.5 16 10 5.8z","fillRule":"evenodd"}));
+}
+
+VideoPlay.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = VideoPlay;
+
+VideoPlay.default = VideoPlay;

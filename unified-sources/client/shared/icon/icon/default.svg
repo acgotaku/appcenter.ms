@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Default (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M16 30c7.73 0 14-6.27 14-14S23.73 2 16 2 2 8.27 2 16s6.27 14 14 14z","fillRule":"evenodd"}));
+}
+
+Default.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = Default;
+
+Default.default = Default;

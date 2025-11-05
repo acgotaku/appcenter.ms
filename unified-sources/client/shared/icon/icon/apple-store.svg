@@ -1,0 +1,11 @@
+var React = require('react');
+
+function AppleStore (props) {
+    return React.createElement("svg",props,[React.createElement("defs",{"key":0},React.createElement("linearGradient",{"id":"apple-store-a","x1":"50%","x2":"50%","y1":"0%","y2":"100%"},[React.createElement("stop",{"offset":"0%","stopColor":"#25C7F5","key":0}),React.createElement("stop",{"offset":"100%","stopColor":"#1D70F2","key":1})])),React.createElement("g",{"fill":"none","key":1},[React.createElement("path",{"fill":"url(#apple-store-a)","d":"M24.91 32H7.09C3.19 32 0 28.81 0 24.91V7.09C0 3.19 3.19 0 7.09 0h17.824C28.81 0 32 3.19 32 7.09v17.824C32 28.81 28.81 32 24.91 32z","style":{"fill":"url(#apple-store-a)"},"key":0}),React.createElement("g",{"fill":"#FFF","key":1},[React.createElement("path",{"fill":"#FFF","d":"M17.68 10.125l-1.718 2.981.57.992-3.748-6.497a1.49 1.49 0 1 1 2.581-1.49l2.316 4.014zm.544.942l7.385 12.798a1.49 1.49 0 0 1-2.581 1.49l-5.635-9.766c-.369-3.855.815-4.513.831-4.522z","style":{"fill":"#FFF"},"key":0}),React.createElement("path",{"fill":"#FFF","d":"M11.177 21.4l-3.431-.01-.416.724c2.313-1.165 2.912.75 2.942.855l-1.376 2.386a1.49 1.49 0 1 1-2.581-1.49L16.558 6.112a1.49 1.49 0 0 1 2.035-.547c.71.412.955 1.322.543 2.036L11.177 21.4z","style":{"fill":"#FFF"},"key":1}),React.createElement("path",{"fill":"#FFF","d":"M20.705 21.39l-1.718-2.98h7.252a1.49 1.49 0 0 1 .003 2.98h-5.537zm-1.736 0H5.755a1.49 1.49 0 0 1 0-2.98h11.556c.2.058 2.845.865 1.658 2.98z","style":{"fill":"#FFF"},"key":2})])])]);
+}
+
+AppleStore.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = AppleStore;
+
+AppleStore.default = AppleStore;

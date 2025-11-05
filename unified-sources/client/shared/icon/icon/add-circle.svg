@@ -1,0 +1,11 @@
+var React = require('react');
+
+function AddCircle (props) {
+    return React.createElement("svg",props,React.createElement("g",{"fillRule":"evenodd"},[React.createElement("path",{"d":"M12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2z","opacity":".1","key":0}),React.createElement("path",{"d":"M13 11V7h-2v4H7v2h4v4h2v-4h4v-2","key":1})]));
+}
+
+AddCircle.defaultProps = {"width":"24","height":"24","viewBox":"0 0 24 24"};
+
+module.exports = AddCircle;
+
+AddCircle.default = AddCircle;

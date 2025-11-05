@@ -1,0 +1,40 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../../node_modules/css-loader/dist/runtime/api.js";
+import ___CSS_LOADER_ICSS_IMPORT_0___ from "-!../../../../node_modules/css-loader/dist/cjs.js??ref--6-1!../../../../node_modules/postcss-loader/dist/cjs.js!../../../../node_modules/sass-loader/dist/cjs.js!../../../shared/styles/utils.scss";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+___CSS_LOADER_EXPORT___.i(___CSS_LOADER_ICSS_IMPORT_0___, "", true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "._18QOoTgqx{font-size:20px;color:var(--primary-text)}._5im0E9hTx{margin:10px 0px 60px 0px}._5fxYSzMMx{white-space:pre-line}", "",{"version":3,"sources":["webpack://client/management/shared/message-dialog/message-dialog.scss"],"names":[],"mappings":"AAEA,YACE,cAAA,CACA,yBAEA,CAGF,YACE,wBACA,CAGF,YACE,oBAAA","sourcesContent":["@import \"~@css/vars.scss\";\n\n.header {\n  font-size: 20px;\n  color: $primary-text;\n  composes: bold from \"~@css/utils.scss\";\n  composes: wordwrap from '~@css/utils.scss';\n}\n\n.message {\n  margin: 10px 0px 60px 0px;\n  composes: wordwrap from '~@css/utils.scss';\n}\n\n.newline {\n  white-space: pre-line;\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"tabletScreen": "768px",
+	"smallScreen": "1100px",
+	"mediumScreen": "1300px",
+	"largeScreen": "1500px",
+	"azure": "#006fc8",
+	"cyan": "#1faece",
+	"primaryText": "var(--primary-text)",
+	"secondaryText": "var(--secondary-text)",
+	"chartGridColor": "var(--ui-divider)",
+	"gray10": "#dedede",
+	"msDarkBlue": "#002050",
+	"amberLight2": "#f7e28b",
+	"violetLight2": "#cec0ec",
+	"tealLight3": "#cfece8",
+	"bannerBlue": "var(--banner-blue)",
+	"spaceXXS": "4px",
+	"spaceXS": "8px",
+	"spaceS": "16px",
+	"spaceM": "20px",
+	"spaceXM": "24px",
+	"spaceL": "32px",
+	"spaceXL": "40px",
+	"spaceXXL": "60px",
+	"panelSlideDuration": "200ms",
+	"panelFadeDuration": "100ms",
+	"ccBannerHeight": "46px",
+	"header": "_18QOoTgqx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["bold"] + " " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["wordwrap"] + "",
+	"message": "_5im0E9hTx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["wordwrap"] + "",
+	"newline": "_5fxYSzMMx"
+};
+export default ___CSS_LOADER_EXPORT___;

@@ -1,0 +1,11 @@
+var React = require('react');
+
+function AppHome (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M17 9.7V19h-6v-6H9v6H3V9.7l-1.65 1.65-.7-.7L10 1.3l9.35 9.35-.7.7L17 9.7zm-13-1V18h4v-6h4v6h4V8.7l-6-6-6 6z","fillRule":"evenodd"}));
+}
+
+AppHome.defaultProps = {"width":"20","height":"20","viewBox":"0 0 20 20"};
+
+module.exports = AppHome;
+
+AppHome.default = AppHome;

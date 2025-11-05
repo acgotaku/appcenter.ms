@@ -1,0 +1,20 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../../node_modules/css-loader/dist/runtime/api.js";
+import ___CSS_LOADER_ICSS_IMPORT_0___ from "-!../../../../node_modules/css-loader/dist/cjs.js??ref--6-1!../../../../node_modules/postcss-loader/dist/cjs.js!../../../../node_modules/sass-loader/dist/cjs.js!../../../shared/styles/utils.scss";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+___CSS_LOADER_EXPORT___.i(___CSS_LOADER_ICSS_IMPORT_0___, "", true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "._4lY4qpGkx{flex:1 0 auto}._4lY4qpGkx>*{flex:0 0 100%}._3xab76plx{width:320px;height:140px}._224xGpoCx{width:100%}._4VQOfxdqx{margin:-5px}._6KmsSMMUx{justify-content:center}._4AXRBVtSx{margin-right:8px}", "",{"version":3,"sources":["webpack://client/management/app-settings/collaborators/collaborators.scss"],"names":[],"mappings":"AAAA,YAEE,aAAA,CACA,cACE,aAAA,CAIJ,YACE,WAAA,CACA,YAAA,CAGF,YACE,UAAA,CAGF,YACE,WAAA,CAGF,YAEE,sBAAA,CAGF,YACE,gBAAA","sourcesContent":[".empty {\n  composes: vertically-center from '~@css/utils.scss';\n  flex: 1 0 auto;\n  > * {\n    flex: 0 0 100%;\n  }\n}\n\n.empty-image {\n  width: 320px;\n  height: 140px;\n}\n\n.autocomplete {\n  width: 100%;\n}\n\n.remove-button {\n  margin: -5px;\n}\n\n.delete {\n  composes: stretch from '~@css/utils.scss';\n  justify-content: center;\n}\n\n.collaborator-icon {\n  margin-right: 8px;\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"empty": "_4lY4qpGkx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["vertically-center"] + "",
+	"empty-image": "_3xab76plx",
+	"emptyImage": "_3xab76plx",
+	"autocomplete": "_224xGpoCx",
+	"remove-button": "_4VQOfxdqx",
+	"removeButton": "_4VQOfxdqx",
+	"delete": "_6KmsSMMUx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["stretch"] + "",
+	"collaborator-icon": "_4AXRBVtSx",
+	"collaboratorIcon": "_4AXRBVtSx"
+};
+export default ___CSS_LOADER_EXPORT___;

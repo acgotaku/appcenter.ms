@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Playfab (props) {
+    return React.createElement("svg",props,React.createElement("g",{"fill":"none","fillRule":"evenodd"},[React.createElement("path",{"d":"M0 0h32v32H0z","style":{"fill":"none"},"key":0}),React.createElement("path",{"fill":"#FF6D21","fillRule":"nonzero","d":"M15.82 0L2 8.061l.047 8.514 6.509 3.683-.009 7.505L15.963 32l13.822-8.062-.073-16L15.82 0zM5.5 14.514l-.02-4.463 10.358-6.043 10.411 5.95.054 11.99-10.358 6.043-3.92-2.24.001-3.532 3.903 2.23 7.3-4.257-.039-8.45-7.336-4.192-7.298 4.258.02 4.463L5.5 14.514zm6.556 3.723l-.02-4.44 3.836-2.238 3.856 2.203.02 4.44-3.837 2.238-3.855-2.203z","style":{"fill":"#FF6D21"},"key":1})]));
+}
+
+Playfab.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = Playfab;
+
+Playfab.default = Playfab;

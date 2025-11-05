@@ -1,0 +1,11 @@
+var React = require('react');
+
+function AppSettings (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M0 3h9v1H0V3zm12 0h8v1h-8V3zm-2-2h1c.6 0 1 .4 1 1v3c0 .6-.4 1-1 1h-1c-.6 0-1-.4-1-1V2c0-.6.4-1 1-1zm0 1v3h1V2h-1zM0 9h3v1H0V9zm6 0h14v1H6V9zM4 7h1c.6 0 1 .4 1 1v3c0 .6-.4 1-1 1H4c-.6 0-1-.4-1-1V8c0-.6.4-1 1-1zm0 1v3h1V8H4zm-4 7h14v1H0v-1zm20 0v1h-3v-1h3zm-5-2h1c.6 0 1 .4 1 1v3c0 .6-.4 1-1 1h-1c-.6 0-1-.4-1-1v-3c0-.6.4-1 1-1zm0 1v3h1v-3h-1z","fillRule":"evenodd"}));
+}
+
+AppSettings.defaultProps = {"width":"20","height":"20","viewBox":"0 0 20 20"};
+
+module.exports = AppSettings;
+
+AppSettings.default = AppSettings;

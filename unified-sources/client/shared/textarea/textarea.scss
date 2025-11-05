@@ -1,0 +1,43 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../node_modules/css-loader/dist/runtime/api.js";
+import ___CSS_LOADER_ICSS_IMPORT_0___ from "-!../../../node_modules/css-loader/dist/cjs.js??ref--6-1!../../../node_modules/postcss-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!../styles/private_utils.scss";
+import ___CSS_LOADER_ICSS_IMPORT_1___ from "-!../../../node_modules/css-loader/dist/cjs.js??ref--6-1!../../../node_modules/postcss-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!../styles/utils.scss";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+___CSS_LOADER_EXPORT___.i(___CSS_LOADER_ICSS_IMPORT_0___, "", true);
+___CSS_LOADER_EXPORT___.i(___CSS_LOADER_ICSS_IMPORT_1___, "", true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "._61Bp9Wn6x{}._1mw6HANpx{}._4A5GfMlLx{resize:none}.ichtPMNFx{resize:both}", "",{"version":3,"sources":["webpack://client/shared/textarea/textarea.scss"],"names":[],"mappings":"AAEA,YACE,CAGF,YACE,CAGF,YAEE,WAAA,CAGF,WAAA,WAAA","sourcesContent":["@import \"../styles/variables.scss\";\n\n.label {\n  composes: label from '../styles/private_utils.scss';\n}\n\n.description {\n  composes: form-desc from '../styles/private_utils.scss';\n}\n\n.textarea {\n  composes: entry from '../styles/utils.scss';\n  resize: none;\n}\n\n.resizable { resize: both; }\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"tabletScreen": "768px",
+	"smallScreen": "1100px",
+	"mediumScreen": "1300px",
+	"largeScreen": "1500px",
+	"azure": "#006fc8",
+	"cyan": "#1faece",
+	"primaryText": "var(--primary-text)",
+	"secondaryText": "var(--secondary-text)",
+	"chartGridColor": "var(--ui-divider)",
+	"gray10": "#dedede",
+	"msDarkBlue": "#002050",
+	"amberLight2": "#f7e28b",
+	"violetLight2": "#cec0ec",
+	"tealLight3": "#cfece8",
+	"bannerBlue": "var(--banner-blue)",
+	"spaceXXS": "4px",
+	"spaceXS": "8px",
+	"spaceS": "16px",
+	"spaceM": "20px",
+	"spaceXM": "24px",
+	"spaceL": "32px",
+	"spaceXL": "40px",
+	"spaceXXL": "60px",
+	"panelSlideDuration": "200ms",
+	"panelFadeDuration": "100ms",
+	"ccBannerHeight": "46px",
+	"label": "_61Bp9Wn6x " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["label"] + "",
+	"description": "_1mw6HANpx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["form-desc"] + "",
+	"textarea": "_4A5GfMlLx " + ___CSS_LOADER_ICSS_IMPORT_1___.locals["entry"] + "",
+	"resizable": "ichtPMNFx"
+};
+export default ___CSS_LOADER_EXPORT___;

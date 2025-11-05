@@ -1,0 +1,11 @@
+var React = require('react');
+
+function ApplicationInsights (props) {
+    return React.createElement("svg",props,React.createElement("g",{"fill":"none"},[React.createElement("path",{"d":"M12.94 24.76h6.24v2h-6.24v-2zM14.88 31h2.3l1.94-2.06h-6.18L14.88 31z","fill":"#7A7A7A","style":{"fill":"#7A7A7A"},"key":0}),React.createElement("path",{"d":"M25.53 10.24v-.18c0-4.53-3.88-8.3-8.65-8.35-.12-.15-2.82.08-2.82.08-4.3.53-7.65 4.12-7.65 8.3 0 .12-.44 3.4 2.9 6.18 1.54 1.35 3.1 5 3.37 6.05l.17.36h6.24l.18-.36c.23-1.07 1.88-4.7 3.35-6 3.35-2.84 2.94-5.96 2.94-6.07z","fill":"#691B7C","style":{"fill":"#691B7C"},"key":1}),React.createElement("path",{"d":"M19.18 12.24l-1 6.23H17V12.3l.06-.12c2.23 0 1.94-2.06 1.94-2.06h-6.06v.17c0 .44.18 1.92 2.06 1.92v6.23h-1.18l-.3-1.47-.76-4.77c-1.35 0-1.76-.9-1.94-1.52v-.8c0-1.64 1.9-1.82 1.9-1.82h6.46s2.06.23 2.06 2.06c-.06 0 0 2.12-2.06 2.12z","fill":"#FFF","style":{"fill":"#FFF"},"key":2}),React.createElement("path",{"d":"M25.53 11.24c.06-.6 0-1 0-1.06V10c0-4.53-3.88-8.3-8.65-8.35-.12-.18-2.82.06-2.82.06-4.3.56-7.65 4.14-7.65 8.3 0 .08-.03.55 0 1.26h19.15z","fill":"#FFF","opacity":".15","style":{"fill":"#FFF"},"key":3})]));
+}
+
+ApplicationInsights.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = ApplicationInsights;
+
+ApplicationInsights.default = ApplicationInsights;

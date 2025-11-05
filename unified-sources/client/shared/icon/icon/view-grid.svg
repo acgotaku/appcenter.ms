@@ -1,0 +1,11 @@
+var React = require('react');
+
+function ViewGrid (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M0 14V0h14v14H0zM2 2v10h10V2H2zM0 30V16h14v14H0zm2-12v10h10V18H2zm14 12V16h14v14H16zm2-12v10h10V18H18zM16 0h14v14H16V0zm12 12V2H18v10h10z","fillRule":"evenodd"}));
+}
+
+ViewGrid.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = ViewGrid;
+
+ViewGrid.default = ViewGrid;

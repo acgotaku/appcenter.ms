@@ -1,0 +1,11 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "._7eMnRQzKx{width:32px;height:32px}.GtektFXUx{width:48px;height:48px}", "",{"version":3,"sources":["webpack://client/management/app-settings/export/export-type-icon.scss"],"names":[],"mappings":"AAAA,YACE,UAAA,CACA,WAAA,CAGF,WACE,UAAA,CACA,WAAA","sourcesContent":[".icon {\n  width: 32px;\n  height: 32px;\n}\n\n.big {\n  width: 48px;\n  height: 48px;\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"icon": "_7eMnRQzKx",
+	"big": "GtektFXUx"
+};
+export default ___CSS_LOADER_EXPORT___;

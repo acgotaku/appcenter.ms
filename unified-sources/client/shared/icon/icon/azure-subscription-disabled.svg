@@ -1,0 +1,11 @@
+var React = require('react');
+
+function AzureSubscriptionDisabled (props) {
+    return React.createElement("svg",props,React.createElement("g",{"fill":"none","fillRule":"evenodd"},[React.createElement("path",{"fill":"#BFBFBF","fillRule":"nonzero","d":"M18.14 18.415l1.307 1.307-1.443 1.444 1.443 1.443-1.443 1.44 1.443 1.442-1.456 1.475-2.48 2.48-2.51-2.85v-3.04l5.14-5.14zm-6.376-2.108l-3.85-3.587c-1.22-1.22-1.22-3.197 0-4.417l5.388-5.388c1.22-1.22 3.198-1.22 4.418 0l3.717 3.718-9.673 9.674zm5.31-11.212c-.325-.553-.922-.89-1.563-.878-.962.018-1.74.806-1.74 1.774s.778 1.76 1.74 1.778c.646.01 1.24-.325 1.567-.878.323-.554.323-1.24 0-1.79z","style":{"fill":"#BFBFBF"},"key":0}),React.createElement("path",{"fill":"#6E6E6E","fillRule":"nonzero","d":"M14 26.135l1 1.098V21.5l-1 1","opacity":".4","style":{"fill":"#6E6E6E"},"key":1}),React.createElement("path",{"fill":"#FFF","fillRule":"nonzero","d":"M10 10h8l-1 1h-7v-1zm0 2h6l-1 1h-5v-1z","opacity":".4","style":{"fill":"#FFF"},"key":2}),React.createElement("path",{"fill":"#ABABAB","d":"M26.213 4.686L27.627 6.1 6.414 27.315 5 25.9z","style":{"fill":"#ABABAB"},"key":3})]));
+}
+
+AzureSubscriptionDisabled.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = AzureSubscriptionDisabled;
+
+AzureSubscriptionDisabled.default = AzureSubscriptionDisabled;

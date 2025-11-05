@@ -1,0 +1,11 @@
+var React = require('react');
+
+function CrashFilled (props) {
+    return React.createElement("svg",props,React.createElement("g",{"fillRule":"evenodd"},React.createElement("path",{"d":"M22.1 0l-3 12H27L10.5 32l3.3-14H6"})));
+}
+
+CrashFilled.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = CrashFilled;
+
+CrashFilled.default = CrashFilled;

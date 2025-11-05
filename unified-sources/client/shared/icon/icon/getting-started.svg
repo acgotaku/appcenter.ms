@@ -1,0 +1,11 @@
+var React = require('react');
+
+function GettingStarted (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M13.04 6.25L14.8 4.5l.7.7-1.75 1.76-.7-.7zM9 5V2.5h1V5H9zM5.26 6.97L3.5 5.2l.7-.7 1.77 1.76-.7.7zM7 10.5C7 9.12 8.12 8 9.5 8S12 9.12 12 10.5 10.88 13 9.5 13 7 11.88 7 10.5zm4 0c0-.83-.67-1.5-1.5-1.5S8 9.67 8 10.5 8.67 12 9.5 12s1.5-.67 1.5-1.5zm4-.5h2.5v1H15v-1zM1.5 10H4v1H1.5v-1zm14.93 5.43c1-1.4 1.57-3.1 1.57-4.93C18 5.8 14.2 2 9.5 2S1 5.8 1 10.5c0 1.84.58 3.54 1.57 4.93l-.7.7C.67 14.58 0 12.63 0 10.5 0 5.25 4.25 1 9.5 1S19 5.25 19 10.5c0 2.1-.7 4.07-1.86 5.64l-.7-.7z"}));
+}
+
+GettingStarted.defaultProps = {"width":"20","height":"20","viewBox":"0 0 20 20"};
+
+module.exports = GettingStarted;
+
+GettingStarted.default = GettingStarted;

@@ -1,0 +1,11 @@
+var React = require('react');
+
+function InstallOnDevice (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M13.25 1.25h-10v17.5H7V20H3a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1h10.5a1 1 0 0 1 1 1v1.18h-1.25v-.93zM7 16.25h2.5v1.25H7v-1.25zM18.13 20H8.88v-1.25h9.24V20zm-8.34-8.4l3.44 3.45V4h1.25v11.05l3.43-3.45h.18l.7.7v.18l-4.85 4.89h-.18l-4.85-4.9v-.17l.7-.7h.18z","fill":"#000","fillRule":"nonzero"}));
+}
+
+InstallOnDevice.defaultProps = {"width":"20","height":"20","viewBox":"0 0 20 20"};
+
+module.exports = InstallOnDevice;
+
+InstallOnDevice.default = InstallOnDevice;

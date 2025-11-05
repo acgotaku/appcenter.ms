@@ -1,0 +1,16 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../../../../node_modules/css-loader/dist/runtime/api.js";
+import ___CSS_LOADER_ICSS_IMPORT_0___ from "-!../../../../../../node_modules/css-loader/dist/cjs.js??ref--6-1!../../../../../../node_modules/postcss-loader/dist/cjs.js!../../../../../../node_modules/sass-loader/dist/cjs.js!../../../../../shared/styles/utils.scss";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+___CSS_LOADER_EXPORT___.i(___CSS_LOADER_ICSS_IMPORT_0___, "", true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "._3i4FDtm5x{}._78as7WHux{}._4UiBURIUx{}", "",{"version":3,"sources":["webpack://client/management/orgs/people/distribution-group-details/distribution-group-testers/distribution-group-testers.scss"],"names":[],"mappings":"AAAA,YACE,CAGF,YACE,CAGF,YACE","sourcesContent":[".error {\n  composes: form-error-message from '~@css/utils.scss';\n}\n\n.message-box{\n  composes: space-m-below from '~@css/utils.scss';\n}\n\n.tester-input-container {\n  composes: space-m-below from '~@css/utils.scss';\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"error": "_3i4FDtm5x " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["form-error-message"] + "",
+	"message-box": "_78as7WHux " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["space-m-below"] + "",
+	"messageBox": "_78as7WHux " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["space-m-below"] + "",
+	"tester-input-container": "_4UiBURIUx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["space-m-below"] + "",
+	"testerInputContainer": "_4UiBURIUx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["space-m-below"] + ""
+};
+export default ___CSS_LOADER_EXPORT___;

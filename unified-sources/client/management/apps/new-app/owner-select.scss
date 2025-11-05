@@ -1,0 +1,15 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../../node_modules/css-loader/dist/runtime/api.js";
+import ___CSS_LOADER_ICSS_IMPORT_0___ from "-!../../../../node_modules/css-loader/dist/cjs.js??ref--6-1!../../../../node_modules/postcss-loader/dist/cjs.js!../../../../node_modules/sass-loader/dist/cjs.js!../../../shared/styles/utils.scss";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+___CSS_LOADER_EXPORT___.i(___CSS_LOADER_ICSS_IMPORT_0___, "", true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "._1qpImk2zx,._4PXegP2jx{width:100%}._66Q5on9yx{}._3BDtUpaGx{z-index:5}", "",{"version":3,"sources":["webpack://client/management/apps/new-app/owner-select.scss"],"names":[],"mappings":"AAAA,wBACE,UAAA,CAGF,YACE,CAMF,YACE,SAAA","sourcesContent":[".select, .trigger {\n  width: 100%;\n}\n\n.label {\n  composes: form-label from \"~@css/utils.scss\";\n}\n\n// This was added for /github-app/setup/repositories/:repoId\n// because the OwnerSelect was opening behind the ScrollableDialog.\n// This should be fixed in Overlay or Dropdown itself somehow.\n.backdrop {\n  z-index: 5;\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"select": "_1qpImk2zx",
+	"trigger": "_4PXegP2jx",
+	"label": "_66Q5on9yx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["form-label"] + "",
+	"backdrop": "_3BDtUpaGx"
+};
+export default ___CSS_LOADER_EXPORT___;

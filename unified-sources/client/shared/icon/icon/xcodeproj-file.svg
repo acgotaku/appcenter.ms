@@ -1,0 +1,11 @@
+var React = require('react');
+
+function XcodeprojFile (props) {
+    return React.createElement("svg",props,React.createElement("g",{"fill":"none","fillRule":"evenodd"},[React.createElement("path",{"style":{"fill":"#0078D7"},"fill":"#0078D7","d":"M4 2h11l5 5v15H4","key":0}),React.createElement("path",{"style":{"fill":"#8AC6F6"},"fill":"#8AC6F6","d":"M13.45 12L12.1 9.48 10.66 12h2.78zM6 12v2h1.83l-1.48 2.63 1.3.74L9.55 14h4.98l1.8 3.36 1.33-.72L16.23 14H18v-2h-2.85l-2.9-5.36-1.3.72 1.02 1.9-1.12-.63L8.95 12H6z","key":1})]));
+}
+
+XcodeprojFile.defaultProps = {"width":"24","height":"24","viewBox":"0 0 24 24"};
+
+module.exports = XcodeprojFile;
+
+XcodeprojFile.default = XcodeprojFile;

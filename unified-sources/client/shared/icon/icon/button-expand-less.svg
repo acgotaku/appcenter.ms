@@ -1,0 +1,11 @@
+var React = require('react');
+
+function ButtonExpandLess (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M10,8.5l4.7,4.6l0.7-0.7L9.9,7.1l-5.3,5.4l0.7,0.7"}));
+}
+
+ButtonExpandLess.defaultProps = {"width":"20","height":"20","viewBox":"0 0 20 20"};
+
+module.exports = ButtonExpandLess;
+
+ButtonExpandLess.default = ButtonExpandLess;

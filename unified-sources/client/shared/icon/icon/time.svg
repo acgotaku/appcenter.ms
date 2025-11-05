@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Time (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M6 12c-3.3 0-6-2.7-6-6s2.7-6 6-6 6 2.7 6 6-2.7 6-6 6zm0-1c2.8 0 5-2.2 5-5S8.8 1 6 1 1 3.2 1 6s2.2 5 5 5zm0-5h2v1H5V2h1v4z","fillRule":"evenod"}));
+}
+
+Time.defaultProps = {"width":"12","height":"12","viewBox":"0 0 12 12"};
+
+module.exports = Time;
+
+Time.default = Time;

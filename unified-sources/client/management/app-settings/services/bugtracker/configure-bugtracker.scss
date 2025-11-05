@@ -1,0 +1,43 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../../../node_modules/css-loader/dist/runtime/api.js";
+import ___CSS_LOADER_ICSS_IMPORT_0___ from "-!../../../../../node_modules/css-loader/dist/cjs.js??ref--6-1!../../../../../node_modules/postcss-loader/dist/cjs.js!../../../../../node_modules/sass-loader/dist/cjs.js!../../../../shared/styles/utils.scss";
+import ___CSS_LOADER_ICSS_IMPORT_1___ from "-!../../../../../node_modules/css-loader/dist/cjs.js??ref--6-1!../../../../../node_modules/postcss-loader/dist/cjs.js!../../../../../node_modules/sass-loader/dist/cjs.js!../../../../shared/button/button.scss";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+___CSS_LOADER_EXPORT___.i(___CSS_LOADER_ICSS_IMPORT_0___, "", true);
+___CSS_LOADER_EXPORT___.i(___CSS_LOADER_ICSS_IMPORT_1___, "", true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "._4ZwCiUIVx{}._3XjXA5Vjx{}", "",{"version":3,"sources":["webpack://client/management/app-settings/services/bugtracker/configure-bugtracker.scss"],"names":[],"mappings":"AAEA,YACE,CAGF,YACE","sourcesContent":["@import '~@css/vars.scss';\n\n.bottom-bar {\n  composes: stretch from \"~@css/utils.scss\";\n}\n\n.disconnect-button {\n  composes: danger-link from \"~@root/shared/button/button.scss\";\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"tabletScreen": "768px",
+	"smallScreen": "1100px",
+	"mediumScreen": "1300px",
+	"largeScreen": "1500px",
+	"azure": "#006fc8",
+	"cyan": "#1faece",
+	"primaryText": "var(--primary-text)",
+	"secondaryText": "var(--secondary-text)",
+	"chartGridColor": "var(--ui-divider)",
+	"gray10": "#dedede",
+	"msDarkBlue": "#002050",
+	"amberLight2": "#f7e28b",
+	"violetLight2": "#cec0ec",
+	"tealLight3": "#cfece8",
+	"bannerBlue": "var(--banner-blue)",
+	"spaceXXS": "4px",
+	"spaceXS": "8px",
+	"spaceS": "16px",
+	"spaceM": "20px",
+	"spaceXM": "24px",
+	"spaceL": "32px",
+	"spaceXL": "40px",
+	"spaceXXL": "60px",
+	"panelSlideDuration": "200ms",
+	"panelFadeDuration": "100ms",
+	"ccBannerHeight": "46px",
+	"bottom-bar": "_4ZwCiUIVx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["stretch"] + "",
+	"bottomBar": "_4ZwCiUIVx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["stretch"] + "",
+	"disconnect-button": "_3XjXA5Vjx " + ___CSS_LOADER_ICSS_IMPORT_1___.locals["danger-link"] + "",
+	"disconnectButton": "_3XjXA5Vjx " + ___CSS_LOADER_ICSS_IMPORT_1___.locals["danger-link"] + ""
+};
+export default ___CSS_LOADER_EXPORT___;

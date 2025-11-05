@@ -1,0 +1,13 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "._2n7hVprix{position:absolute;top:50%;left:50%;transform:translateX(-50%) translateY(-50%);background:#f8f8f8;text-align:center;font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Helvetica,Ubuntu,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\"}._1pfnPUnRx{font-size:28px;line-height:40px;text-align:center;letter-spacing:-0.4px;color:rgba(0,0,0,.9)}._6wbVCo0Wx{font-size:17px;line-height:24px;text-align:center;color:rgba(0,0,0,.59)}._446PT3plx{font-weight:600;font-size:14px;line-height:20px;display:inline-block;margin-top:30px;padding:10px 12px;background-color:#006fc8;color:#fff;cursor:pointer;text-align:center;text-decoration:none;border:none}", "",{"version":3,"sources":["webpack://client/shared/not-found/not-found.scss"],"names":[],"mappings":"AAAA,YACE,iBAAA,CACA,OAAA,CACA,QAAA,CAGA,2CAAA,CACA,kBAAA,CACA,iBAAA,CACA,wKAAA,CAGF,YACE,cAAA,CACA,gBAAA,CACA,iBAAA,CACA,qBAAA,CACA,oBAAA,CAGF,YACE,cAAA,CACA,gBAAA,CACA,iBAAA,CACA,qBAAA,CAGF,YACE,eAAA,CACA,cAAA,CACA,gBAAA,CACA,oBAAA,CACA,eAAA,CACA,iBAAA,CACA,wBAAA,CACA,UAAA,CACA,cAAA,CACA,iBAAA,CACA,oBAAA,CACA,WAAA","sourcesContent":[".container {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  -moz-transform: translateX(-50%) translateY(-50%);\n  -webkit-transform: translateX(-50%) translateY(-50%);\n  transform: translateX(-50%) translateY(-50%);\n  background: #f8f8f8;\n  text-align: center;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Helvetica, Ubuntu, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\";\n}\n\n.h1 {\n  font-size: 28px;\n  line-height: 40px;\n  text-align: center;\n  letter-spacing: -0.4px;\n  color: rgba(0, 0, 0, 0.9);\n  }\n\n.p {\n  font-size: 17px;\n  line-height: 24px;\n  text-align: center;\n  color: rgba(0, 0, 0, 0.59);\n}\n\n.button{\n  font-weight: 600;\n  font-size: 14px;\n  line-height: 20px;\n  display: inline-block;\n  margin-top: 30px;\n  padding: 10px 12px;\n  background-color: #006fc8;\n  color: #fff;\n  cursor: pointer;\n  text-align: center;\n  text-decoration: none;\n  border: none;\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"container": "_2n7hVprix",
+	"h1": "_1pfnPUnRx",
+	"p": "_6wbVCo0Wx",
+	"button": "_446PT3plx"
+};
+export default ___CSS_LOADER_EXPORT___;

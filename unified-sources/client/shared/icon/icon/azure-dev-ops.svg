@@ -1,0 +1,11 @@
+var React = require('react');
+
+function AzureDevOps (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M32 5.82812V25.4219L23.9062 32L11.4219 27.4219V32L4.57812 22.8594L25.1406 24.4375V6.85938L32 5.82812ZM4.57812 11.1094V22.8594L0 20.9062V11.7031L3.125 7.625L13.7188 4.57812V0L25.1406 6.85938L4.57812 11.1094Z","style":{"fill":"#0078D4"}}));
+}
+
+AzureDevOps.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32","fill":"none"};
+
+module.exports = AzureDevOps;
+
+AzureDevOps.default = AzureDevOps;

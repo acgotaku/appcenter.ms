@@ -1,0 +1,11 @@
+var React = require('react');
+
+function TextAttachment (props) {
+    return React.createElement("svg",props,React.createElement("path",{"fillRule":"evenodd","d":"M8,44 L8,4 L28.544,4 L40,15.333 L40,44 L8,44 Z M26,13 L14,13 L14,14 L26,14 L26,13 Z M34,17 L14,17 L14,18 L34,18 L34,17 Z M14,21 L14,22 L34,22 L34,21 L14,21 Z M34,25 L14,25 L14,26 L34,26 L34,25 Z M34,29 L14,29 L14,30 L34,30 L34,29 Z M34,33 L14,33 L14,34 L34,34 L34,33 Z M34,37 L14,37 L14,38 L34,38 L34,37 Z"}));
+}
+
+TextAttachment.defaultProps = {"width":"48px","height":"48px","viewBox":"0 0 48 48","version":"1.1"};
+
+module.exports = TextAttachment;
+
+TextAttachment.default = TextAttachment;

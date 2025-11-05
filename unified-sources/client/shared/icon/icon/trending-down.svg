@@ -1,0 +1,11 @@
+var React = require('react');
+
+function TrendingDown (props) {
+    return React.createElement("svg",props,React.createElement("g",{"fillRule":"evenodd"},React.createElement("path",{"d":"M30 16h2v10H22v-2h6.58L18 13.42l-6 6L.05 7.45l1.4-1.4L12 16.58l6-6 12 12"})));
+}
+
+TrendingDown.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = TrendingDown;
+
+TrendingDown.default = TrendingDown;

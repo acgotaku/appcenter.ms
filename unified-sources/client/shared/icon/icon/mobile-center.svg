@@ -1,0 +1,11 @@
+var React = require('react');
+
+function MobileCenter (props) {
+    return React.createElement("svg",props,React.createElement("g",{"fill":"none","fillRule":"evenodd"},[React.createElement("path",{"fill":"#CB2E62","fillRule":"nonzero","d":"M24 27.5l8 1.17L24.02 32H24L0 24l24 3.5V0l8 3.33v25.34","style":{"fill":"#CB2E62"},"key":0}),React.createElement("path",{"fill":"#CB2E62","d":"M8 5.33L11 6v4.8l5-3.47v4L11 14l5 2.67v4l-5-3.47V22l-3 .67L2.67 18v-2l3.07-2-3.07-2v-2L8 5.33zM4.27 10.8L8 12.67V8l-3.73 2.8zM8 20v-4.67L4.27 17.2 8 20zm8-12.67l4 1.34v10.66l-4 1.34V7.33z","style":{"fill":"#CB2E62"},"key":1})]));
+}
+
+MobileCenter.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = MobileCenter;
+
+MobileCenter.default = MobileCenter;

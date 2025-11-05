@@ -1,0 +1,11 @@
+var React = require('react');
+
+function AppTest (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M0 9.5C0 4.25 4.25 0 9.5 0S19 4.25 19 9.5 14.75 19 9.5 19 0 14.75 0 9.5zm18 0C18 4.8 14.2 1 9.5 1S1 4.8 1 9.5 4.8 18 9.5 18 18 14.2 18 9.5zm-9.53 2.76L13.6 5.7l.8.6-5.86 7.45-3.4-3.4.7-.7 2.63 2.6z"}));
+}
+
+AppTest.defaultProps = {"width":"20","height":"20","viewBox":"0 0 20 20"};
+
+module.exports = AppTest;
+
+AppTest.default = AppTest;

@@ -1,0 +1,11 @@
+var React = require('react');
+
+function SortUp (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M25 18.11l1.406-1.407L15.703 6 5 16.703l1.406 1.406 8.297-8.297v16.094h2V9.813z"}));
+}
+
+SortUp.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = SortUp;
+
+SortUp.default = SortUp;

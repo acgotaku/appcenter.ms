@@ -1,0 +1,11 @@
+var React = require('react');
+
+function AppPush (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M17.25 7.5h.5c.1 0 .17-.02.25-.03V15c0 1.65-1.34 3-3 3H5c-1.65 0-3-1.34-3-3V5c0-1.65 1.34-3 3-3h8.8c-.14.32-.23.65-.27 1H5c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V7.46l.25.02zM17.5 6C16.12 6 15 4.88 15 3.5S16.12 1 17.5 1 20 2.12 20 3.5 18.88 6 17.5 6z","fillRule":"evenodd"}));
+}
+
+AppPush.defaultProps = {"width":"20","height":"20","viewBox":"0 0 20 20"};
+
+module.exports = AppPush;
+
+AppPush.default = AppPush;

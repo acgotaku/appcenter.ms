@@ -1,0 +1,11 @@
+var React = require('react');
+
+function LockOpen (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M28 14v18H4V14h18V8c0-.85-.15-1.65-.46-2.38-.3-.72-.73-1.36-1.27-1.9-.53-.53-1.17-.95-1.9-1.26-.7-.3-1.5-.46-2.37-.46-.85 0-1.65.15-2.38.46-.72.3-1.36.73-1.9 1.27-.53.53-.95 1.17-1.26 1.9-.3.72-.46 1.52-.46 2.37H8c0-1.14.2-2.2.6-3.16.42-.98.98-1.82 1.7-2.54s1.56-1.28 2.54-1.7C13.8.2 14.86 0 16 0c1.14 0 2.2.2 3.16.6.98.42 1.82.98 2.54 1.7s1.28 1.56 1.7 2.54c.4.97.6 2.02.6 3.16v6h4zm-2 2H6v14h20V16z","fillRule":"evenodd"}));
+}
+
+LockOpen.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = LockOpen;
+
+LockOpen.default = LockOpen;

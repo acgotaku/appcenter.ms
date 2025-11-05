@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Transition (props) {
+    return React.createElement("svg",props,React.createElement("g",{"fill":"#000","fillRule":"nonzero"},React.createElement("path",{"d":"M4.872 16.744h14.963v-1.237H4.872l3.933-3.934-.883-.884-5.436 5.436 5.436 5.436.883-.884zM18.951 7.993H3.546V6.756h15.405l-3.933-3.933.884-.884 5.436 5.436-5.436 5.436-.884-.884z"})));
+}
+
+Transition.defaultProps = {"width":"24","height":"24","viewBox":"0 0 24 24"};
+
+module.exports = Transition;
+
+Transition.default = Transition;

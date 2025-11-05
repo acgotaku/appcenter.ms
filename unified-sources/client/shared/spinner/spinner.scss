@@ -1,0 +1,52 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../node_modules/css-loader/dist/runtime/api.js";
+import ___CSS_LOADER_GET_URL_IMPORT___ from "../../../node_modules/css-loader/dist/runtime/getUrl.js";
+import ___CSS_LOADER_URL_IMPORT_0___ from "./dark-spinner@2x.png";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "._1t8Fvg9ux{display:flex;justify-content:center}._73O7sIPMx{align-self:center;display:inline-block;flex:0 0 auto;opacity:1;text-indent:-99999px}@keyframes _4OenszoZx{from{background-position:144px 0}to{background-position:0 0}}._6qq1q82Ex{background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");background-size:144px 12px;animation:_4OenszoZx 1s infinite steps(12);height:12px;width:12px}@keyframes _6NZhFBHux{from{background-position:192px 0}to{background-position:0 0}}._157fqB9Vx{background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");background-size:192px 16px;animation:_6NZhFBHux 1s infinite steps(12);height:16px;width:16px}@keyframes _2fsIBSXSx{from{background-position:240px 0}to{background-position:0 0}}._4UUguxOpx{background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");background-size:240px 20px;animation:_2fsIBSXSx 1s infinite steps(12);height:20px;width:20px}@keyframes _1jXKJKqWx{from{background-position:384px 0}to{background-position:0 0}}._6v9oyMQTx{background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");background-size:384px 32px;animation:_1jXKJKqWx 1s infinite steps(12);height:32px;width:32px}@keyframes _516btVugx{from{background-position:576px 0}to{background-position:0 0}}._3ZPOfyk4x{background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");background-size:576px 48px;animation:_516btVugx 1s infinite steps(12);height:48px;width:48px}@keyframes _15096sEgx{from{background-position:768px 0}to{background-position:0 0}}.S1MBNfRKx{background-image:url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");background-size:768px 64px;animation:_15096sEgx 1s infinite steps(12);height:64px;width:64px}", "",{"version":3,"sources":["webpack://client/shared/spinner/spinner.scss"],"names":[],"mappings":"AAEA,YACE,YAAA,CACA,sBAAA,CAGF,YACE,iBAAA,CACA,oBAAA,CACA,aAAA,CACA,SAAA,CACA,oBAAA,CAaA,sBAEE,KAAA,2BAAA,CACA,GAAA,uBAAA,CAAA,CAIF,YACE,wDAAA,CACA,0BAAA,CACA,0CAAA,CACA,WArBI,CAsBJ,UAtBI,CAUN,sBAEE,KAAA,2BAAA,CACA,GAAA,uBAAA,CAAA,CAIF,YACE,wDAAA,CACA,0BAAA,CACA,0CAAA,CACA,WArBI,CAsBJ,UAtBI,CAUN,sBAEE,KAAA,2BAAA,CACA,GAAA,uBAAA,CAAA,CAIF,YACE,wDAAA,CACA,0BAAA,CACA,0CAAA,CACA,WArBI,CAsBJ,UAtBI,CAUN,sBAEE,KAAA,2BAAA,CACA,GAAA,uBAAA,CAAA,CAIF,YACE,wDAAA,CACA,0BAAA,CACA,0CAAA,CACA,WArBI,CAsBJ,UAtBI,CAUN,sBAEE,KAAA,2BAAA,CACA,GAAA,uBAAA,CAAA,CAIF,YACE,wDAAA,CACA,0BAAA,CACA,0CAAA,CACA,WArBI,CAsBJ,UAtBI,CAUN,sBAEE,KAAA,2BAAA,CACA,GAAA,uBAAA,CAAA,CAIF,WACE,wDAAA,CACA,0BAAA,CACA,0CAAA,CACA,WArBI,CAsBJ,UAtBI","sourcesContent":["@import '../styles/mixins.scss';\n\n.container {\n  display: flex;\n  justify-content: center;\n}\n\n.spinner {\n  align-self: center;\n  display: inline-block;\n  flex: 0 0 auto;\n  opacity: 1;\n  text-indent: -99999px;\n}\n\n$sizes: (\n  xxsmall: 12px,\n  xsmall: 16px,\n  small: 20px,\n  medium: 32px,\n  large: 48px,\n  xlarge: 64px\n);\n\n@each $size, $px in $sizes {\n  @keyframes #{$size}SpinnerRotation {\n    /* stylelint-disable block-opening-brace-space-before, unit-no-unknown */\n    from { background-position: ($px * 12) 0; }\n    to   { background-position: 0 0; }\n    /* stylelint-enable block-opening-brace-space-before, unit-no-unknown */\n  }\n\n  .#{$size} {\n    background-image: url(\"./dark-spinner@2x.png\");\n    background-size: ($px * 12) $px;\n    animation: #{$size}SpinnerRotation 1s infinite steps(12);\n    height: $px;\n    width: $px;\n  }\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"tabletScreen": "768px",
+	"smallScreen": "1100px",
+	"mediumScreen": "1300px",
+	"largeScreen": "1500px",
+	"azure": "#006fc8",
+	"cyan": "#1faece",
+	"primaryText": "var(--primary-text)",
+	"secondaryText": "var(--secondary-text)",
+	"chartGridColor": "var(--ui-divider)",
+	"gray10": "#dedede",
+	"msDarkBlue": "#002050",
+	"amberLight2": "#f7e28b",
+	"violetLight2": "#cec0ec",
+	"tealLight3": "#cfece8",
+	"bannerBlue": "var(--banner-blue)",
+	"spaceXXS": "4px",
+	"spaceXS": "8px",
+	"spaceS": "16px",
+	"spaceM": "20px",
+	"spaceXM": "24px",
+	"spaceL": "32px",
+	"spaceXL": "40px",
+	"spaceXXL": "60px",
+	"panelSlideDuration": "200ms",
+	"panelFadeDuration": "100ms",
+	"ccBannerHeight": "46px",
+	"container": "_1t8Fvg9ux",
+	"spinner": "_73O7sIPMx",
+	"xxsmall": "_6qq1q82Ex",
+	"xxsmallSpinnerRotation": "_4OenszoZx",
+	"xsmall": "_157fqB9Vx",
+	"xsmallSpinnerRotation": "_6NZhFBHux",
+	"small": "_4UUguxOpx",
+	"smallSpinnerRotation": "_2fsIBSXSx",
+	"medium": "_6v9oyMQTx",
+	"mediumSpinnerRotation": "_1jXKJKqWx",
+	"large": "_3ZPOfyk4x",
+	"largeSpinnerRotation": "_516btVugx",
+	"xlarge": "S1MBNfRKx",
+	"xlargeSpinnerRotation": "_15096sEgx"
+};
+export default ___CSS_LOADER_EXPORT___;

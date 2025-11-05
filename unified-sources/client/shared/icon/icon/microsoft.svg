@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Microsoft (props) {
+    return React.createElement("svg",props,React.createElement("g",{"fill":"none","fillRule":"evenodd"},[React.createElement("path",{"style":{"fill":"#F15022"},"fill":"#F15022","d":"M0 0h9v9H0z","key":0}),React.createElement("path",{"style":{"fill":"#7FBA00"},"fill":"#7FBA00","d":"M10 0h9v9h-9z","key":1}),React.createElement("path",{"style":{"fill":"#00A4EF"},"fill":"#00A4EF","d":"M0 10h9v9H0z","key":2}),React.createElement("path",{"style":{"fill":"#FFB900"},"fill":"#FFB900","d":"M10 10h9v9h-9z","key":3})]));
+}
+
+Microsoft.defaultProps = {"width":"20","height":"20","viewBox":"0 0 20 20"};
+
+module.exports = Microsoft;
+
+Microsoft.default = Microsoft;

@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Logout (props) {
+    return React.createElement("svg",props,[React.createElement("title",{"key":0},"Group 8"),React.createElement("desc",{"key":1},"Created with Sketch."),React.createElement("defs",{"key":2}),React.createElement("g",{"id":"Navigation-(for-Surge)","stroke":"none","strokeWidth":"1","fill":"none","fillRule":"evenodd","key":3},React.createElement("g",{"id":"Navigation-(no-orgs)","transform":"translate(-15.000000, -597.000000)"},React.createElement("g",{"id":"menu","transform":"translate(0.000000, 88.000000)"},React.createElement("g",{"id":"Group-17","transform":"translate(0.000000, 501.000000)"},React.createElement("g",{"id":"log-out"},React.createElement("g",{"id":"Group-8","transform":"translate(15.000000, 8.000000)"},[React.createElement("rect",{"id":"icon","x":"0","y":"0","width":"24","height":"24","key":0}),React.createElement("path",{"d":"M1.75,22.25 L13,22.25 L13,23.75 L0.25,23.75 L0.25,0.25 L13,0.25 L13,1.75 L1.75,1.75 L1.75,22.25 Z M17.1394539,18.3413672 L16.2605476,17.4623817 L20.8503914,12.9014236 L8.70000076,12.9014236 L8.70000076,11.6513108 L20.8503914,11.6513108 L16.2605476,7.09035265 L17.1394539,6.21136713 L23.2527351,12.2763672 L17.1394539,18.3413672 Z","id":"Combined-Shape","fill":"#000000","key":1})]))))))]);
+}
+
+Logout.defaultProps = {"width":"24px","height":"24px","viewBox":"0 0 24 24","version":"1.1"};
+
+module.exports = Logout;
+
+Logout.default = Logout;

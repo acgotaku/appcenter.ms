@@ -1,0 +1,11 @@
+var React = require('react');
+
+function ViewList (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M0 28V18h10v10H0zm2-8v6h6v-6H2zm-2-6V4h10v10H0zm2-8v6h6V6H2zm12 0h18v2H14V6zm12 4v2H14v-2h12zM14 22v-2h18v2H14zm0 4v-2h12v2H14z","fillRule":"evenodd"}));
+}
+
+ViewList.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = ViewList;
+
+ViewList.default = ViewList;

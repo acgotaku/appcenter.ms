@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Spinner (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M26 13c0 7.18-5.82 13-13 13S0 20.18 0 13 5.82 0 13 0c1.333.018 2 .684 2 2 0 1.316-.667 1.982-2 2a9 9 0 1 0 9 9c.012-1.333.678-2 2-2s1.988.667 2 2z","fill":"#000","fillRule":"nonzero"}));
+}
+
+Spinner.defaultProps = {"width":"26","height":"26"};
+
+module.exports = Spinner;
+
+Spinner.default = Spinner;

@@ -1,0 +1,11 @@
+var React = require('react');
+
+function SignalFlag (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M0 0H1V16H0V0ZM13.9219 4.5L2 8.96875V0.03125L13.9219 4.5ZM3 7.53125L11.0781 4.5L3 1.46875V7.53125Z","fill":"#333333"}));
+}
+
+SignalFlag.defaultProps = {"width":"14","height":"16","viewBox":"0 0 14 16","fill":"none"};
+
+module.exports = SignalFlag;
+
+SignalFlag.default = SignalFlag;

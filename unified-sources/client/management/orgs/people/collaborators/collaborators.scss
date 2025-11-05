@@ -1,0 +1,47 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../../../node_modules/css-loader/dist/runtime/api.js";
+import ___CSS_LOADER_ICSS_IMPORT_0___ from "-!../../../../../node_modules/css-loader/dist/cjs.js??ref--6-1!../../../../../node_modules/postcss-loader/dist/cjs.js!../../../../../node_modules/sass-loader/dist/cjs.js!../../../../shared/styles/utils.scss";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+___CSS_LOADER_EXPORT___.i(___CSS_LOADER_ICSS_IMPORT_0___, "", true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".uqglcw5tx{margin-bottom:20px}._639whhXux{display:none}._7u2vNwz2x{display:block}.p5JX5AHpx{flex-direction:column}.p5JX5AHpx>img{margin-bottom:20px;height:160px;max-height:40vh}@media screen and (-ms-high-contrast: active){._2XX0qpqfx:hover *{border-color:window}}@media screen and (-ms-high-contrast: active){._6DLlRy68x *{border-color:window}}._1ExIOkhBx{width:100%}", "",{"version":3,"sources":["webpack://client/management/orgs/people/collaborators/collaborators.scss"],"names":[],"mappings":"AAEA,WACE,kBAAA,CAGF,YACE,YAAA,CAGF,YACE,aAAA,CAGF,WAEE,qBAAA,CAEA,eACE,kBAAA,CACA,YAAA,CACA,eAAA,CASA,8CACE,oBACE,mBAAA,CAAA,CASN,8CACE,cACE,mBAAA,CAAA,CAKN,YACE,UAAA","sourcesContent":["@import \"~@css/vars.scss\";\n\n.invite {\n  margin-bottom: 20px;\n}\n\n.hidden {\n  display: none;\n}\n\n.visible {\n  display: block;\n}\n\n.error-wrapper {\n  composes: vertically-center from \"~@css/utils.scss\";\n  flex-direction: column;\n\n  > img {\n    margin-bottom: 20px;\n    height: 160px;\n    max-height: 40vh;\n  }\n}\n\n// TODO Remove this once this support lands and can be handled by Identicon directly https://ghe-us.microsoft.com/mobile-services/mobile-center-portal/issues/5046\n// Fix hover state for identicons\n.icon-wrapper-fix {\n  &:hover {\n    // Edge: High contrast mode\n    @media screen and (-ms-high-contrast: active) {\n      * {\n        border-color: window;\n      }\n    }\n  }\n}\n\n// Fix active state for identicons\n.icon-wrapper-active-fix {\n  // Edge: High contrast mode\n  @media screen and (-ms-high-contrast: active) {\n    * {\n      border-color: window;\n    }\n  }\n}\n\n.autocomplete {\n  width: 100%;\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"tabletScreen": "768px",
+	"smallScreen": "1100px",
+	"mediumScreen": "1300px",
+	"largeScreen": "1500px",
+	"azure": "#006fc8",
+	"cyan": "#1faece",
+	"primaryText": "var(--primary-text)",
+	"secondaryText": "var(--secondary-text)",
+	"chartGridColor": "var(--ui-divider)",
+	"gray10": "#dedede",
+	"msDarkBlue": "#002050",
+	"amberLight2": "#f7e28b",
+	"violetLight2": "#cec0ec",
+	"tealLight3": "#cfece8",
+	"bannerBlue": "var(--banner-blue)",
+	"spaceXXS": "4px",
+	"spaceXS": "8px",
+	"spaceS": "16px",
+	"spaceM": "20px",
+	"spaceXM": "24px",
+	"spaceL": "32px",
+	"spaceXL": "40px",
+	"spaceXXL": "60px",
+	"panelSlideDuration": "200ms",
+	"panelFadeDuration": "100ms",
+	"ccBannerHeight": "46px",
+	"invite": "uqglcw5tx",
+	"hidden": "_639whhXux",
+	"visible": "_7u2vNwz2x",
+	"error-wrapper": "p5JX5AHpx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["vertically-center"] + "",
+	"errorWrapper": "p5JX5AHpx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["vertically-center"] + "",
+	"icon-wrapper-fix": "_2XX0qpqfx",
+	"iconWrapperFix": "_2XX0qpqfx",
+	"icon-wrapper-active-fix": "_6DLlRy68x",
+	"iconWrapperActiveFix": "_6DLlRy68x",
+	"autocomplete": "_1ExIOkhBx"
+};
+export default ___CSS_LOADER_EXPORT___;

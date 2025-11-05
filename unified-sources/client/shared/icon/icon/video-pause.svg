@@ -1,0 +1,11 @@
+var React = require('react');
+
+function VideoPause (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M10 28V4h2v24h-2zM20 4h2v24h-2V4z","fillRule":"evenodd"}));
+}
+
+VideoPause.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = VideoPause;
+
+VideoPause.default = VideoPause;

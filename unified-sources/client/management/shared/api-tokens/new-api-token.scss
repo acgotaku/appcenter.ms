@@ -1,0 +1,14 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../../node_modules/css-loader/dist/runtime/api.js";
+import ___CSS_LOADER_ICSS_IMPORT_0___ from "-!../../../../node_modules/css-loader/dist/cjs.js??ref--6-1!../../../../node_modules/postcss-loader/dist/cjs.js!../../../../node_modules/sass-loader/dist/cjs.js!../../../shared/styles/utils.scss";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+___CSS_LOADER_EXPORT___.i(___CSS_LOADER_ICSS_IMPORT_0___, "", true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "@media(max-height: 300px){._2rVbdb67x{max-height:30px;padding:0px 20px !important}}._5c6f2pYnx{}", "",{"version":3,"sources":["webpack://client/management/shared/api-tokens/new-api-token.scss"],"names":[],"mappings":"AAAA,0BACE,YACE,eAAA,CACA,2BAAA,CAAA,CAIJ,YACE","sourcesContent":["@media (max-height: 300px) {\n  .top-bar {\n    max-height: 30px;\n    padding: 0px 20px !important;\n  }\n}\n\n.required {\n  composes: required from '~@css/utils.scss';\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"top-bar": "_2rVbdb67x",
+	"topBar": "_2rVbdb67x",
+	"required": "_5c6f2pYnx " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["required"] + ""
+};
+export default ___CSS_LOADER_EXPORT___;

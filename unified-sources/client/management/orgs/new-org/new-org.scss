@@ -1,0 +1,43 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../../node_modules/css-loader/dist/runtime/api.js";
+import ___CSS_LOADER_ICSS_IMPORT_0___ from "-!../../../../node_modules/css-loader/dist/cjs.js??ref--6-1!../../../../node_modules/postcss-loader/dist/cjs.js!../../../../node_modules/sass-loader/dist/cjs.js!../../../shared/styles/utils.scss";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+___CSS_LOADER_EXPORT___.i(___CSS_LOADER_ICSS_IMPORT_0___, "", true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "._6vrJPidxx{width:100%;margin-top:10px}._15sSP4fJx{font-weight:400}.LOd8n4oBx{}@media(max-height: 300px){.LOd8n4oBx{padding:2px}}._1TcpIQf7x{}@media(max-height: 300px){._75r6ieTyx{margin-top:0px;padding:0px}}", "",{"version":3,"sources":["webpack://client/management/orgs/new-org/new-org.scss"],"names":[],"mappings":"AAEA,YACE,UAAA,CACA,eAAA,CAGF,YACE,eAAA,CAGF,WACE,CACA,0BAFF,WAGI,WAAA,CAAA,CAIJ,YACE,CAGF,0BACE,YACE,cAAA,CACA,WAAA,CAAA","sourcesContent":["@import \"~@css/vars.scss\";\n\n.field {\n  width: 100%;\n  margin-top: 10px;\n}\n\n.bold {\n  font-weight: 400;\n}\n\n.name {\n  composes: bold;\n  @media (max-height: 300px) {\n    padding: 2px;\n  }\n}\n\n.hidden {\n  composes: off-screen from \"~@css/utils.scss\";\n}\n\n@media (max-height: 300px) {\n  .error-label {\n    margin-top: 0px;\n    padding: 0px;\n  }\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"tabletScreen": "768px",
+	"smallScreen": "1100px",
+	"mediumScreen": "1300px",
+	"largeScreen": "1500px",
+	"azure": "#006fc8",
+	"cyan": "#1faece",
+	"primaryText": "var(--primary-text)",
+	"secondaryText": "var(--secondary-text)",
+	"chartGridColor": "var(--ui-divider)",
+	"gray10": "#dedede",
+	"msDarkBlue": "#002050",
+	"amberLight2": "#f7e28b",
+	"violetLight2": "#cec0ec",
+	"tealLight3": "#cfece8",
+	"bannerBlue": "var(--banner-blue)",
+	"spaceXXS": "4px",
+	"spaceXS": "8px",
+	"spaceS": "16px",
+	"spaceM": "20px",
+	"spaceXM": "24px",
+	"spaceL": "32px",
+	"spaceXL": "40px",
+	"spaceXXL": "60px",
+	"panelSlideDuration": "200ms",
+	"panelFadeDuration": "100ms",
+	"ccBannerHeight": "46px",
+	"field": "_6vrJPidxx",
+	"bold": "_15sSP4fJx",
+	"name": "LOd8n4oBx _15sSP4fJx",
+	"hidden": "_1TcpIQf7x " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["off-screen"] + "",
+	"error-label": "_75r6ieTyx",
+	"errorLabel": "_75r6ieTyx"
+};
+export default ___CSS_LOADER_EXPORT___;

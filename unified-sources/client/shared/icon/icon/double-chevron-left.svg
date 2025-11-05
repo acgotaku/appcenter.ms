@@ -1,0 +1,11 @@
+var React = require('react');
+
+function DoubleChevronLeft (props) {
+    return React.createElement("svg",props,React.createElement("path",{"fill":"#000","fillOpacity":".4","fillRule":"evenodd","d":"M18.3 2.3L4.5 16l13.8 13.7-2 2L.9 16 16.4.4l1.9 1.9zm13.3 0L18 16l13.7 13.7-1.9 2L14.1 16 29.7.4l2 1.9z"}));
+}
+
+DoubleChevronLeft.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = DoubleChevronLeft;
+
+DoubleChevronLeft.default = DoubleChevronLeft;

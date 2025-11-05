@@ -1,0 +1,11 @@
+var React = require('react');
+
+function TrendingUnchanged (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M10.57 6.02H0v-.75h10.57L8.83 3.53 9.35 3l2.4 2.38.25.27L9.35 8.3l-.52-.54 1.74-1.74z","fillRule":"evenodd"}));
+}
+
+TrendingUnchanged.defaultProps = {"width":"12","height":"12","viewBox":"0 0 12 12"};
+
+module.exports = TrendingUnchanged;
+
+TrendingUnchanged.default = TrendingUnchanged;

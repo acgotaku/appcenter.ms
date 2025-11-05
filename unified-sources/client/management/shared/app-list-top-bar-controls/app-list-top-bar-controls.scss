@@ -1,0 +1,11 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "._3TLrZmTvx{max-width:250px}", "",{"version":3,"sources":["webpack://client/management/shared/app-list-top-bar-controls/app-list-top-bar-controls.scss"],"names":[],"mappings":"AAAA,YACE,eAAA","sourcesContent":[".release_type-dropdown {\n  max-width: 250px;\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"release_type-dropdown": "_3TLrZmTvx",
+	"release_typeDropdown": "_3TLrZmTvx"
+};
+export default ___CSS_LOADER_EXPORT___;

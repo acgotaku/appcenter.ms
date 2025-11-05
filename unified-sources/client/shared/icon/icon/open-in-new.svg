@@ -1,0 +1,11 @@
+var React = require('react');
+
+function OpenInNew (props) {
+    return React.createElement("svg",props,React.createElement("g",{"fillRule":"evenodd"},React.createElement("path",{"d":"M24 13V8H4v20h20V13v5h2V6H14v2h10v5zM2 6h24v24H2V6zm14-4h14v14h-2V5.4L12.4 21 11 19.6 26.6 4H16V2z"})));
+}
+
+OpenInNew.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = OpenInNew;
+
+OpenInNew.default = OpenInNew;

@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Add (props) {
+    return React.createElement("svg",props,React.createElement("g",{"fillRule":"evenodd"},React.createElement("path",{"d":"M32 15v2H17v15h-2V17H0v-2h15V0h2v15"})));
+}
+
+Add.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = Add;
+
+Add.default = Add;

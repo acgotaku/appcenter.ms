@@ -1,0 +1,11 @@
+var React = require('react');
+
+function StatusCrashed (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M0 16C0 7.16 7.16 0 16 0s16 7.16 16 16-7.16 16-16 16S0 24.84 0 16zM20.02 4L10 18h4.97l-3.05 10 11.1-14H18l2.02-10z","fillRule":"evenodd"}));
+}
+
+StatusCrashed.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = StatusCrashed;
+
+StatusCrashed.default = StatusCrashed;

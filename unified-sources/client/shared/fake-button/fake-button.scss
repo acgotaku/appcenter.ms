@@ -1,0 +1,11 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "._1YTXyGjjx{cursor:pointer}@media screen and (-ms-high-contrast: active){._1YTXyGjjx{color:buttonText}._1YTXyGjjx:focus{outline:2px dotted buttonText}}", "",{"version":3,"sources":["webpack://client/shared/fake-button/fake-button.scss"],"names":[],"mappings":"AAAA,YACE,cAAA,CACA,8CAFF,YAGI,gBAAA,CACA,kBACE,6BAAA,CAAA","sourcesContent":[".fake-button {\n  cursor: pointer;\n  @media screen and (-ms-high-contrast: active) {\n    color: buttonText;\n    &:focus {\n      outline: 2px dotted buttonText;\n    }\n  }\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"fake-button": "_1YTXyGjjx",
+	"fakeButton": "_1YTXyGjjx"
+};
+export default ___CSS_LOADER_EXPORT___;

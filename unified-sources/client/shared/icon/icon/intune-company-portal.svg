@@ -1,0 +1,11 @@
+var React = require('react');
+
+function IntuneCompanyPortal (props) {
+    return React.createElement("svg",props,[React.createElement("defs",{"key":0},React.createElement("style",null,"\n            @media screen and (-ms-high-contrast: active){#Rectangle-4{fill:windowText;}#Combined-Shape{fill:window;}}\n        ")),React.createElement("g",{"id":"Page-1","fill":"none","fillRule":"evenodd","key":1},React.createElement("g",{"id":"selected"},[React.createElement("path",{"id":"Rectangle-4","fill":"#FFF","d":"M0 0h30v30H0z","style":{"fill":"#FFF"},"key":0}),React.createElement("path",{"id":"Combined-Shape","fill":"#0070C9","d":"M1 1h28v28H1V1zm20.4 24.042c0-.515.01-1.013-.004-1.51-.013-.423-.005-.855-.09-1.266-.306-1.465-1.172-2.53-2.46-3.254-.727-.41-1.5-.578-2.318-.283-.375.134-.748.276-1.12.42-.995.38-2.018.616-3.076.38-.68-.153-1.34-.404-2.003-.627-.472-.16-.934-.368-1.445-.317-1.68.167-2.846 1.05-3.527 2.582-.244.55-.328 1.138-.35 1.738-.023.71-.06 1.42-.09 2.136h16.48zm-4.086-10.85c0-2.297-1.848-4.14-4.153-4.143-2.257-.003-4.106 1.864-4.107 4.146-.002 2.27 1.848 4.144 4.095 4.144 2.316 0 4.167-1.842 4.166-4.147zm1.135-1.036c.057.317.087.644.087.978 0 .09-.002.18-.006.267l.004.044h6.944c.306 0 .42-.116.42-.426V5.464c0-.31-.114-.425-.42-.425h-12.7c-.295 0-.414.118-.415.415v3.363c.257-.04.52-.058.787-.058.17 0 .34.008.507.023V6.34h10.945v6.816H18.45zm-.397-1.26h.756V7.528h-4.367v1.385c1.614.393 2.936 1.505 3.61 2.98zm1.37-4.367v1.874h4.395V7.53h-4.394zm0 2.49v1.875h1.905V10.02h-1.904zm2.49 0v1.875h1.905V10.02h-1.904z","style":{"fill":"#0070C9"},"key":1})]))]);
+}
+
+IntuneCompanyPortal.defaultProps = {"width":"30","height":"30","viewBox":"0 0 30 30"};
+
+module.exports = IntuneCompanyPortal;
+
+IntuneCompanyPortal.default = IntuneCompanyPortal;

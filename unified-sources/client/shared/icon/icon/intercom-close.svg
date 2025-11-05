@@ -1,0 +1,11 @@
+var React = require('react');
+
+function IntercomClose (props) {
+    return React.createElement("svg",props,React.createElement("g",{"fill":"none","fillRule":"evenodd"},[React.createElement("path",{"fill":"#000","d":"M24 44c11.05 0 20-8.95 20-20S35.05 4 24 4 4 12.95 4 24s8.95 20 20 20z","key":0}),React.createElement("path",{"fill":"#FFF","style":{"fill":"#fff"},"d":"M24 22.94l3.97-3.97 1.06 1.06L25.06 24l3.97 3.97-1.06 1.06L24 25.06l-3.97 3.97-1.06-1.06L22.94 24l-3.97-3.97 1.06-1.06","key":1})]));
+}
+
+IntercomClose.defaultProps = {"width":"48","height":"48","viewBox":"0 0 48 48"};
+
+module.exports = IntercomClose;
+
+IntercomClose.default = IntercomClose;

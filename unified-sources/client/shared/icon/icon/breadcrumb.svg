@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Breadcrumb (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M0 0H12V1H0V0ZM3 4V3H12V4H3ZM6 7V6H12V7H6Z"}));
+}
+
+Breadcrumb.defaultProps = {"width":"12","height":"7","viewBox":"0 0 12 7","fill":"none"};
+
+module.exports = Breadcrumb;
+
+Breadcrumb.default = Breadcrumb;

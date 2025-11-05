@@ -1,0 +1,11 @@
+var React = require('react');
+
+function AppAnalytics (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M12.5 19H0v-5h6V8h6V0h7v19h-6.5zM1 15h5v3H1v-3zm6-6h5v9H7V9zm6-8h5v17h-5V1z","fillRule":"evenodd"}));
+}
+
+AppAnalytics.defaultProps = {"width":"20","height":"20","viewBox":"0 0 20 20"};
+
+module.exports = AppAnalytics;
+
+AppAnalytics.default = AppAnalytics;

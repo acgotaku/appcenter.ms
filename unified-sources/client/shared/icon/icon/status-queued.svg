@@ -1,0 +1,11 @@
+var React = require('react');
+
+function StatusQueued (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M16 32C7.16 32 0 24.84 0 16S7.16 0 16 0s16 7.16 16 16-7.16 16-16 16zm6-16h-6V6h-2v12h8v-2z","fillRule":"evenodd"}));
+}
+
+StatusQueued.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = StatusQueued;
+
+StatusQueued.default = StatusQueued;

@@ -1,0 +1,11 @@
+var React = require('react');
+
+function DeviceOrientation (props) {
+    return React.createElement("svg",props,[React.createElement("path",{"d":"M11 14V2c0-.513-.39-1-.755-1H4.912C4.502 1 4 1.533 4 2v12c0 .467.502 1 .912 1h5.333c.364 0 .755-.487.755-1zm1 0c0 1.023-.784 2-1.755 2H4.912C3.935 16 3 15.006 3 14V2c0-1.006.935-2 1.912-2h5.333C11.215 0 12 .977 12 2v12z","key":0}),React.createElement("path",{"d":"M6 2.5h3v-1H6m1.5 12.335c-.092 0-.166.075-.166.167 0 .092.074.166.166.166.092 0 .167-.074.167-.166 0-.092-.075-.167-.167-.167zm0 1c-.46 0-.833-.373-.833-.833 0-.46.373-.834.833-.834.46 0 .834.374.834.834 0 .46-.374.833-.834.833zM11.5 3h-8c-.276 0-.5.224-.5.5s.224.5.5.5h8c.276 0 .5-.224.5-.5s-.224-.5-.5-.5zm0 9h-8c-.276 0-.5.224-.5.5s.224.5.5.5h8c.276 0 .5-.224.5-.5s-.224-.5-.5-.5z","key":1})]);
+}
+
+DeviceOrientation.defaultProps = {"width":"16","height":"16","viewBox":"0 0 16 16"};
+
+module.exports = DeviceOrientation;
+
+DeviceOrientation.default = DeviceOrientation;

@@ -1,0 +1,38 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "._6SxnJTnHx{margin-top:31px}._6SxnJTnHx>img{display:block}._2W6VU7oex{width:90px;height:90px;animation:_2W6VU7oex 3s infinite cubic-bezier(0.165, 0.84, 0.44, 1);transform-origin:center center}@keyframes _2W6VU7oex{0%{transform:rotate(0);opacity:1}20%{transform:rotate(144deg);opacity:.6}40%{transform:rotate(216deg);opacity:.8}60%{transform:rotate(360deg);opacity:.6}80%{transform:rotate(288deg);opacity:.8}100%{transform:rotate(360deg);opacity:1}}._3eUNQAPlx{margin-top:-90px}", "",{"version":3,"sources":["webpack://client/shared/cloud-spinner/cloud-spinner.scss"],"names":[],"mappings":"AAEA,YACE,eAAA,CAGF,gBACE,aAAA,CAGF,YACE,UAAA,CACA,WAAA,CACA,mEAAA,CACA,8BAAA,CAEA,sBACE,GACE,mBAAA,CACA,SAAA,CAEF,IACE,wBAAA,CACA,UAAA,CAEF,IACE,wBAAA,CACA,UAAA,CAEF,IACE,wBAAA,CACA,UAAA,CAEF,IACE,wBAAA,CACA,UAAA,CAEF,KACE,wBAAA,CACA,SAAA,CAAA,CAKN,YACE,gBAAA","sourcesContent":["@import '~@css/vars.scss';\n\n.spinner {\n  margin-top: 31px;\n}\n\n.spinner > img {\n  display: block;\n}\n\n.circle {\n  width: 90px;\n  height: 90px;\n  animation: circle 3s infinite cubic-bezier(0.165, 0.84, 0.44, 1);\n  transform-origin: center center;\n\n  @keyframes circle {\n    0% {\n      transform: rotate(0);\n      opacity: 1;\n    }\n    20% {\n      transform: rotate(144deg);\n      opacity: 0.6;;\n    }\n    40% {\n      transform: rotate(216deg);\n      opacity: 0.8;\n    }\n    60% {\n      transform: rotate(360deg);\n      opacity: 0.6;\n    }\n    80% {\n      transform: rotate(288deg);\n      opacity: 0.8;\n    }\n    100% {\n      transform: rotate(360deg);\n      opacity: 1;\n    }\n  }\n}\n\n.cloud {\n  margin-top: -90px;\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"tabletScreen": "768px",
+	"smallScreen": "1100px",
+	"mediumScreen": "1300px",
+	"largeScreen": "1500px",
+	"azure": "#006fc8",
+	"cyan": "#1faece",
+	"primaryText": "var(--primary-text)",
+	"secondaryText": "var(--secondary-text)",
+	"chartGridColor": "var(--ui-divider)",
+	"gray10": "#dedede",
+	"msDarkBlue": "#002050",
+	"amberLight2": "#f7e28b",
+	"violetLight2": "#cec0ec",
+	"tealLight3": "#cfece8",
+	"bannerBlue": "var(--banner-blue)",
+	"spaceXXS": "4px",
+	"spaceXS": "8px",
+	"spaceS": "16px",
+	"spaceM": "20px",
+	"spaceXM": "24px",
+	"spaceL": "32px",
+	"spaceXL": "40px",
+	"spaceXXL": "60px",
+	"panelSlideDuration": "200ms",
+	"panelFadeDuration": "100ms",
+	"ccBannerHeight": "46px",
+	"spinner": "_6SxnJTnHx",
+	"circle": "_2W6VU7oex",
+	"cloud": "_3eUNQAPlx"
+};
+export default ___CSS_LOADER_EXPORT___;

@@ -1,0 +1,11 @@
+var React = require('react');
+
+function AppBack (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M4.06 7L8.2 2.86l-.7-.7L2.14 7.5l5.36 5.36.7-.7L4.07 8h9.8V7","fillRule":"evenodd"}));
+}
+
+AppBack.defaultProps = {"width":"16","height":"16","viewBox":"0 0 16 16"};
+
+module.exports = AppBack;
+
+AppBack.default = AppBack;

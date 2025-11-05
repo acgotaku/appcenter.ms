@@ -1,0 +1,11 @@
+var React = require('react');
+
+function StatusNone (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M0 16C0 7.16 7.16 0 16 0s16 7.16 16 16-7.16 16-16 16S0 24.84 0 16zm8-1v2h16v-2H8z","fillRule":"evenodd"}));
+}
+
+StatusNone.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = StatusNone;
+
+StatusNone.default = StatusNone;

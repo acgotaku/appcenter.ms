@@ -1,0 +1,11 @@
+var React = require('react');
+
+function Remove (props) {
+    return React.createElement("svg",props,React.createElement("g",{"fillRule":"evenodd"},React.createElement("path",{"d":"M32 15v2H0v-2"})));
+}
+
+Remove.defaultProps = {"width":"32","height":"32","viewBox":"0 0 32 32"};
+
+module.exports = Remove;
+
+Remove.default = Remove;

@@ -1,0 +1,45 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "._2ymwZN2Px{display:flex;max-width:100%;position:relative}._2ymwZN2Px ._4nbjpXGox{top:100%;left:0}._2ymwZN2Px ._40RsL1OAx{left:100%;top:0}._2ymwZN2Px ._1onAx2uLx{top:0}._2ymwZN2Px ._1onAx2uLx._40RsL1OAx{left:0}._2ymwZN2Px ._71xuMopqx{transform:translateY(-50%)}._2ymwZN2Px ._3t1lRMRXx{left:auto;right:0}._2ymwZN2Px ._3t1lRMRXx._40RsL1OAx{right:100%;left:auto}._2ymwZN2Px ._6ZHel6iCx{left:auto;right:auto}._2ymwZN2Px .kx8A48oBx{bottom:100%;top:auto}._2ymwZN2Px .kx8A48oBx._40RsL1OAx{bottom:0}._2ymwZN2Px .kx8A48oBx._1onAx2uLx{top:auto;bottom:0}._2ymwZN2Px .kx8A48oBx._3t1lRMRXx._40RsL1OAx{top:auto;bottom:0}", "",{"version":3,"sources":["webpack://client/shared/overlay-positioner/overlay-positioner.scss"],"names":[],"mappings":"AAEA,YACE,YAAA,CACA,cAAA,CACA,iBAAA,CAGA,wBACE,QAAA,CACA,MAAA,CAGF,wBACE,SAAA,CACA,KAAA,CAGF,wBACE,KAAA,CAEA,mCACE,MAAA,CAIJ,wBACE,0BAAA,CAIF,wBACE,SAAA,CACA,OAAA,CAEA,mCACE,UAAA,CACA,SAAA,CAKJ,wBACE,SAAA,CACA,UAAA,CAIF,uBACE,WAAA,CACA,QAAA,CAEA,kCACE,QAAA,CAGF,kCACE,QAAA,CACA,QAAA,CAIF,6CACE,QAAA,CACA,QAAA","sourcesContent":["@import \"../styles/variables.scss\";\n\n.positioner {\n  display: flex;\n  max-width: 100%;\n  position: relative;\n\n  // downward, left-aligned (normal)\n  .positioned {\n    top: 100%;\n    left: 0;\n  }\n\n  .horizontal {\n    left: 100%;\n    top: 0;\n  }\n\n  .overlap {\n    top: 0;\n\n    &.horizontal {\n      left: 0;\n    }\n  }\n\n  .v-center {\n    transform: translateY(-50%);\n  }\n\n  // downward, right-aligned\n  .right {\n    left: auto;\n    right: 0;\n\n    &.horizontal {\n      right: 100%;\n      left: auto;\n    }\n  }\n\n  // downward, center-aligned\n  .h-center {\n    left: auto;\n    right: auto;\n  }\n\n  // upward, left-aligned\n  .upward {\n    bottom: 100%;\n    top: auto;\n\n    &.horizontal {\n      bottom: 0;\n    }\n\n    &.overlap {\n      top: auto;\n      bottom: 0;\n    }\n\n    // upward, right-aligned (only need to fix horizontal)\n    &.right.horizontal {\n      top: auto;\n      bottom: 0;\n    }\n  }\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"tabletScreen": "768px",
+	"smallScreen": "1100px",
+	"mediumScreen": "1300px",
+	"largeScreen": "1500px",
+	"azure": "#006fc8",
+	"cyan": "#1faece",
+	"primaryText": "var(--primary-text)",
+	"secondaryText": "var(--secondary-text)",
+	"chartGridColor": "var(--ui-divider)",
+	"gray10": "#dedede",
+	"msDarkBlue": "#002050",
+	"amberLight2": "#f7e28b",
+	"violetLight2": "#cec0ec",
+	"tealLight3": "#cfece8",
+	"bannerBlue": "var(--banner-blue)",
+	"spaceXXS": "4px",
+	"spaceXS": "8px",
+	"spaceS": "16px",
+	"spaceM": "20px",
+	"spaceXM": "24px",
+	"spaceL": "32px",
+	"spaceXL": "40px",
+	"spaceXXL": "60px",
+	"panelSlideDuration": "200ms",
+	"panelFadeDuration": "100ms",
+	"ccBannerHeight": "46px",
+	"positioner": "_2ymwZN2Px",
+	"positioned": "_4nbjpXGox",
+	"horizontal": "_40RsL1OAx",
+	"overlap": "_1onAx2uLx",
+	"v-center": "_71xuMopqx",
+	"vCenter": "_71xuMopqx",
+	"right": "_3t1lRMRXx",
+	"h-center": "_6ZHel6iCx",
+	"hCenter": "_6ZHel6iCx",
+	"upward": "kx8A48oBx"
+};
+export default ___CSS_LOADER_EXPORT___;

@@ -1,0 +1,11 @@
+var React = require('react');
+
+function AppData (props) {
+    return React.createElement("svg",props,React.createElement("path",{"d":"M8 12V7h3V1H1v11h7zm-7 1c-.55 0-1-.45-1-1V1c0-.55.46-1 1-1h10c.55 0 1 .44 1 1v6H8v6H1zm0-5h6v1H1V8zm7 6h10v-3H8v3zm0 1v3h10v-3H8zm0-5h10V7H8v3zM1 4h10v1H1V4zm7 2h10c.55 0 1 .45 1 1v11c0 .55-.46 1-1 1H8c-.55 0-1-.45-1-1V7c0-.55.46-1 1-1z"}));
+}
+
+AppData.defaultProps = {"width":"20","height":"20","viewBox":"0 0 20 20"};
+
+module.exports = AppData;
+
+AppData.default = AppData;

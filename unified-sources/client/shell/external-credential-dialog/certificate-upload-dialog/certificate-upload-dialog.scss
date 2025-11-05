@@ -1,0 +1,45 @@
+// Imports
+import ___CSS_LOADER_API_IMPORT___ from "../../../../node_modules/css-loader/dist/runtime/api.js";
+import ___CSS_LOADER_ICSS_IMPORT_0___ from "-!../../../../node_modules/css-loader/dist/cjs.js??ref--6-1!../../../../node_modules/postcss-loader/dist/cjs.js!../../../../node_modules/sass-loader/dist/cjs.js!../../../shared/styles/utils.scss";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(true);
+___CSS_LOADER_EXPORT___.i(___CSS_LOADER_ICSS_IMPORT_0___, "", true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "._5BsyXnBXx{width:520px;margin-left:-260px;height:auto}._5Dtokywax{}._1uOdLL3Ax{display:flex;justify-content:flex-end}.HJ1vR9YRx{white-space:normal}._2bQdEDvQx{margin-left:-30px}", "",{"version":3,"sources":["webpack://client/shell/external-credential-dialog/certificate-upload-dialog/certificate-upload-dialog.scss"],"names":[],"mappings":"AAIA,YACE,WAJM,CAKN,kBAAA,CACA,WALO,CAQT,YACE,CAGF,YACE,YAAA,CACA,wBACA,CAGF,WACE,kBAAA,CAGF,YACE,iBAAA","sourcesContent":["@import \"~@css/vars.scss\";\n$width: 520px;\n$height: auto;\n\n.dialog {\n  width: $width;\n  margin-left: -$width * 0.5;\n  height: $height;\n}\n\n.dialog-title {\n  composes: wordwrap from '~@css/utils.scss';\n}\n\n.buttons {\n  display: flex;\n  justify-content: flex-end;\n  composes: space-m-above from '~@css/utils.scss';\n}\n\n.dialog-description {\n  white-space: normal;\n}\n\n.cert-container {\n  margin-left: -30px;\n}"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"tabletScreen": "768px",
+	"smallScreen": "1100px",
+	"mediumScreen": "1300px",
+	"largeScreen": "1500px",
+	"azure": "#006fc8",
+	"cyan": "#1faece",
+	"primaryText": "var(--primary-text)",
+	"secondaryText": "var(--secondary-text)",
+	"chartGridColor": "var(--ui-divider)",
+	"gray10": "#dedede",
+	"msDarkBlue": "#002050",
+	"amberLight2": "#f7e28b",
+	"violetLight2": "#cec0ec",
+	"tealLight3": "#cfece8",
+	"bannerBlue": "var(--banner-blue)",
+	"spaceXXS": "4px",
+	"spaceXS": "8px",
+	"spaceS": "16px",
+	"spaceM": "20px",
+	"spaceXM": "24px",
+	"spaceL": "32px",
+	"spaceXL": "40px",
+	"spaceXXL": "60px",
+	"panelSlideDuration": "200ms",
+	"panelFadeDuration": "100ms",
+	"ccBannerHeight": "46px",
+	"dialog": "_5BsyXnBXx",
+	"dialog-title": "_5Dtokywax " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["wordwrap"] + "",
+	"dialogTitle": "_5Dtokywax " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["wordwrap"] + "",
+	"buttons": "_1uOdLL3Ax " + ___CSS_LOADER_ICSS_IMPORT_0___.locals["space-m-above"] + "",
+	"dialog-description": "HJ1vR9YRx",
+	"dialogDescription": "HJ1vR9YRx",
+	"cert-container": "_2bQdEDvQx",
+	"certContainer": "_2bQdEDvQx"
+};
+export default ___CSS_LOADER_EXPORT___;
