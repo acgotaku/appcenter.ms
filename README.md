@@ -30,13 +30,13 @@ As an interesting discovery, I've archived the extracted source code here for ed
 
 ## What's Inside
 
-• Complete React/TypeScript source code
-• SCSS stylesheets and component styles
-• UI components and page layouts
-• Utility functions and helpers
-• Third-party library sources
-• SVG assets and icons
-• And more...
+- Complete React/TypeScript source code
+- SCSS stylesheets and component styles
+- UI components and page layouts
+- Utility functions and helpers
+- Third-party library sources
+- SVG assets and icons
+- And more...
 
 ## Usage
 
